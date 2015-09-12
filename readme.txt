@@ -3,7 +3,7 @@ Contributors: bobbingwide, vsgloik
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: privacy policy, UK cookie law, EU cookie directive, oik
 Requires at least: 3.9
-Tested up to: 4.0
+Tested up to: 4.3
 Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,7 +43,8 @@ The text was obtained from a document called Sample3_privacy_policy.doc, downloa
 Since May 2012 the page is no longer accessible. 
 [Download a PDF version from oik-plugins](http://www.oik-plugins.com/wp-content/uploads/2012/05/Sample3_privacy_policy.pdf)
 
-The wording for the Cookie categories sections came from the [ICC UK Cookie Guide](http://www.international-chamber.co.uk/components/com_wordpress/wp/wp-content/uploads/2012/04/icc_uk_cookie_guide.pdf)
+The wording for the Cookie categories sections came from the ICC UK Cookie Guide.
+[Download ICC UK Cookie Guide Second Edition November 2012](http://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 = Is it OK to use this text? =
 Yes, Business Link provided a number of samples. The introduction page for the Sample IT policies, disclaimers and notices page said:
@@ -61,11 +62,13 @@ You can still find this same text on [NI Business Info - sample IT policies, dis
 Note: For Category 2, 3 and 4 you need to obtain consent.
 For Categories 2 and 3 you *can* obtain consent by functional use.
 
-= How do I obtain consent? = 
+= How do I obtain consent for category 4 cookies? = 
 I recommend using a WordPress plugin such as 
 [cookie-control](http://wordpress.org/extend/plugins/cookie-control/)
 or
-[eu-cookie-directive](http://wordpress.org/extend/plugins/eu-cookie-directive/)
+[cookiecert-eu-cookie-directive](http://wordpress.org/extend/plugins/cookiecert-eu-cookie-directive/)
+or
+[frankencookie](http://wordpress.org/extend/plugins/frankencookie)
 
 = Where do I find the list of cookies my site uses? =
 You should do a cookie audit. 
@@ -73,8 +76,6 @@ Either use the [cookie-cat](http://www.wordpress.org/extend/plugins/cookie-cat/)
 
 * I also recommend looking at [Cookie Control by Civic UK](http://www.civicuk.com/cookie-law/index)
 * See [Cookie Audits and Privacy Policy](http://civicuk.com/cookie-law/deployment#audit)
-* Also look at ICO's privacy notice for the table of cookies they use: [ICO Privacy Notice](http://www.ico.gov.uk/Global/privacy_statement.aspx)
-
 
 = Can this plugin generate other policies? = 
 The *WP-Policies* plugin provided a number of policies, including:
@@ -91,18 +92,7 @@ The *WP-Policies* plugin provided a number of policies, including:
 These may be added to oik-privacy-policy plugin in the future. Let us know your requirements.
 
 = Where can I find more information? = 
-If you are in the Northern Ireland then see 
-[Northern Irelance Business Info sample IT policies, disclaimers and notices](http://nibusinessinfo.co.uk/content/sample-privacy-policy)
-The documents stored on this site appear to be exactly the same as those which were on the UK business link website.
-
-The following link worked until May 2012, when Business Link broke it
-[Business Link sample IT policies, disclaimers and notices](http://www.businesslink.gov.uk/bdotg/action/layer?r.i=1076142085&r.l1=1073861197&r.l2=1074448560&r.l3=1076141950&r.s=sc&r.t=RESOURCES&topicId=1076141950)
-
-For cookie directives see:
-
-[ICC UK Cookie guide](http://www.international-chamber.co.uk/components/com_wordpress/wp/wp-content/uploads/2012/04/icc_uk_cookie_guide.pdf)
-[ICO guidance](http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/cookie_rules_prepare.aspx)
-[All about cookies](http://www.allaboutcookies.org)
+[oik-privacy-policy FAQs](http://www.oik-plugins.com/oik-plugins/privacy-policy-page-generator/?oik-tab=faq)
 
 == Screenshots ==
 1. oik options - privacy policy: Introduction, effective from
@@ -112,6 +102,9 @@ For cookie directives see:
 1. Sample generated page: from What is a cookie? 
 
 == Upgrade Notice ==
+= 1.3.1 =
+* Tested with WordPress 4.3. Now dependent upon oik v2.5 or higher.
+
 = 1.3= 
 * Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
 
@@ -125,6 +118,11 @@ For cookie directives see:
 * Depends upon oik version 1.13 or higher.
 
 == Changelog ==
+= 1.3.1 = 
+* Changed: Dependent upon oik v2.5
+* Changed: Priority of response to "admin_notices" changed from 10 to 12.
+* Tested: with WordPress 4.3 and WordPress Multi-Site
+
 = 1.3 =
 * Tested: With WordPress 3.9 through 4.0
 
@@ -147,9 +145,6 @@ If you want to read more about the oik plugins then please visit the
 [oik plugin](http://www.oik-plugins.com/oik) 
 **"the oik plugin - for often included key-information"**
 
-[ICC UK Cookie guide](http://www.international-chamber.co.uk/components/com_wordpress/wp/wp-content/uploads/2012/04/icc_uk_cookie_guide.pdf)
-[ICO guidance](http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/cookie_rules_prepare.aspx)
-[All about cookies](http://www.allaboutcookies.org)
 
 
 
