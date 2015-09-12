@@ -1,16 +1,16 @@
-# Copyright (C) 2014 oik-privacy-policy
+# Copyright (C) 2015 oik-privacy-policy
 # This file is distributed under the same license as the oik-privacy-policy package.
 msgid ""
 msgstr ""
-"Project-Id-Version: oik-privacy-policy 1.2\n"
+"Project-Id-Version: oik-privacy-policy 1.3.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2014-01-06 13:16:14+00:00\n"
+"POT-Creation-Date: 2015-09-12 12:41:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: bb_BB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 #: admin/oik-default-privacy-policy.inc:16
@@ -18,8 +18,8 @@ msgid ""
 "<p>This privacy policy sets out how [bw_company] uses and protects any "
 "information that you give [bw_company] when you use this website.</p>"
 msgstr ""
-"<p>This pcvariy piocly stes OUt hOw [bw_company] uess And pertcots Any "
-"iiamnotrfon taht yOU gvie [bw_company] wehn yOU UsE tihs website.</p>"
+"<p>This pracviy pilcoy sets OUt hOw [bw_company] uess And prtcotes Any "
+"ifaoominrtn taht yOU gvie [bw_company] wehn yOU UsE this website.</p>"
 
 #: admin/oik-default-privacy-policy.inc:17
 msgid ""
@@ -28,10 +28,10 @@ msgid ""
 "identified when using this website, then you can be assured that it will "
 "only be used in accordance with this privacy statement.</p>"
 msgstr ""
-"<p>[bw_company] Is cmtomietd tO euinsnrg taht yuor pricvay Is procetted. "
-"Sluohd wE Ask yOU tO pdroive ctraien iiomartonfn by whcih yOU cAn bE "
-"ieediifntd wehn uinsg tihs wbetise, tehn yOU cAn bE asuesrd taht It wlil "
-"only bE uesd In acadcornce wtih tihs pcvriay statement.</p>"
+"<p>[bw_company] Is ctemimtod tO ennirsug taht yuor pavricy Is pocreettd. "
+"Shuold wE Ask yOU tO pvodrie craiten itnroofmain by wichh yOU cAn bE "
+"iedietfind wehn uinsg tihs wbetsie, tehn yOU cAn bE asrused taht It will "
+"olny bE uesd In aaccocrdne wtih this prciavy statement.</p>"
 
 #: admin/oik-default-privacy-policy.inc:18
 msgid ""
@@ -39,9 +39,9 @@ msgid ""
 "page. You should check this page from time to time to ensure that you are "
 "happy with any changes."
 msgstr ""
-"<p>[bw_company] mAy chngae tihs piocly from tmie tO tmie by uipdtnag this "
-"page. YOU shulod cechk this pgae from tmie tO tmie tO esurne that yOU ArE "
-"hpapy wtih Any cngaehs."
+"<p>[bw_company] mAy chgnae this poicly form time tO time by unaiptdg tihs "
+"pgae. YOU sulhod ccehk tihs pgae from time tO tmie tO enusre taht yOU ArE "
+"happy wtih Any cgnheas."
 
 #: admin/oik-default-privacy-policy.inc:19
 msgid "&nbsp;"
@@ -49,7 +49,7 @@ msgstr "&nbsp;"
 
 #: admin/oik-default-privacy-policy.inc:21
 msgid "This policy is effective from:&nbsp;"
-msgstr "This pclioy Is ecevitffe from:&nbsp;"
+msgstr "Tihs poilcy Is eifvftece from:&nbsp;"
 
 #: admin/oik-default-privacy-policy.inc:24
 msgid "<h3>What we collect</h3>"
@@ -57,7 +57,7 @@ msgstr "<h3>What wE collect</h3>"
 
 #: admin/oik-default-privacy-policy.inc:25
 msgid "<p>We may collect the following information:</p>"
-msgstr "<p>We mAy ccloelt thE fiowlnolg information:</p>"
+msgstr "<p>We mAy cllcoet thE fnliowolg information:</p>"
 
 #: admin/oik-default-privacy-policy.inc:26
 #: admin/oik-default-privacy-policy.inc:35
@@ -71,17 +71,17 @@ msgstr "<li>name And jOb title</li>"
 
 #: admin/oik-default-privacy-policy.inc:28
 msgid "<li>contact information including email address</li>"
-msgstr "<li>contact inmorfaiton innudilcg eiaml address</li>"
+msgstr "<li>contact imroofnaitn idnicnulg eaiml address</li>"
 
 #: admin/oik-default-privacy-policy.inc:29
 msgid ""
 "<li>demographic information such as postcode, preferences and interests</li>"
 msgstr ""
-"<li>demographic imofonratin scuh As psodctoe, prreefecens And interests</li>"
+"<li>demographic itofoniarmn scuh As pcsdoote, pnefcerrees And interests</li>"
 
 #: admin/oik-default-privacy-policy.inc:30
 msgid "<li>other information relevant to customer surveys and/or offers</li>"
-msgstr "<li>other iornmtfioan renevlat tO csmtuoer svryeus And/Or offers</li>"
+msgstr "<li>other iiramotfnon rnveleat tO comuster sveurys And/Or offers</li>"
 
 #: admin/oik-default-privacy-policy.inc:31
 #: admin/oik-default-privacy-policy.inc:40
@@ -92,25 +92,25 @@ msgstr "</ul>"
 
 #: admin/oik-default-privacy-policy.inc:33
 msgid "<h3>What we do with the information we gather</h3>"
-msgstr "<h3>What wE dO wtih thE itarfmionon wE gather</h3>"
+msgstr "<h3>What wE dO wtih thE iomiaftronn wE gather</h3>"
 
 #: admin/oik-default-privacy-policy.inc:34
 msgid ""
 "<p>We require this information to understand your needs and provide you with "
 "a better service, and in particular for the following reasons:</p>"
 msgstr ""
-"<p>We riqeure this iiotfrmaonn tO uadntsernd yuor ndees And prodvie yOU with "
-"A beettr svercie, And In ptliuaarcr fOr thE flwilnoog reasons:</p>"
+"<p>We riurqee tihs iirmtfoaonn tO usedntrnad yuor needs And pivrdoe yOU with "
+"A btteer srivece, And In paailcutrr fOr thE fwoilnolg reasons:</p>"
 
 #: admin/oik-default-privacy-policy.inc:36
 msgid "<li>Internal record keeping.</li>"
-msgstr "<li>Internal rcerod keeping.</li>"
+msgstr "<li>Internal roecrd keeping.</li>"
 
 #: admin/oik-default-privacy-policy.inc:37
 msgid ""
 "<li>We may use the information to improve our products and services</li>"
 msgstr ""
-"<li>We mAy UsE thE ifrmonioatn tO ipvmore OUr puorcdts And services</li>"
+"<li>We mAy UsE thE itinfraomon tO irvpmoe OUr ptodrucs And services</li>"
 
 #: admin/oik-default-privacy-policy.inc:38
 msgid ""
@@ -118,9 +118,9 @@ msgid ""
 "offers or other information which we think you may find interesting using "
 "the email address which you have provided.</li>"
 msgstr ""
-"<li>We mAy preildiolcay send pontoroiaml eilmas aoubt nEw potrdcus, siepcal "
-"oerffs Or otehr iontfiomarn wchih wE tinhk yOU mAy fnid itreeitnnsg uinsg "
-"thE eamil addesrs wchih yOU have provided.</li>"
+"<li>We mAy piolraecildy send ptaoioronml eilmas aobut nEw purdotcs, saciepl "
+"ofefrs Or ohetr iorfoamntin wchih wE tnhik yOU mAy fnid ietnensrtig unsig "
+"thE eiaml arsdeds wihch yOU hvae provided.</li>"
 
 #: admin/oik-default-privacy-policy.inc:39
 msgid ""
@@ -129,9 +129,9 @@ msgid ""
 "We may use the information to customise the website according to your "
 "interests.</li>"
 msgstr ""
-"<li>From tmie tO tmie, wE mAy aslo UsE yuor iainmfotorn tO cacotnt yOU fOr "
-"mrkeat rcearseh posrueps. WE mAy ctaonct yOU by eiaml, pnhoe, fAx Or mial. "
-"WE mAy UsE thE ionamoftrin tO ctusiomse thE westbie anrocdcig tO your "
+"<li>From tmie tO tmie, wE mAy aslo UsE your ioonmrtfain tO ccnatot yOU fOr "
+"mkerat rarceesh ppursoes. WE mAy ctocnat yOU by eimal, phnoe, fAx Or mial. "
+"WE mAy UsE thE iifaronomtn tO csitosmue thE wibtsee aoicnrcdg tO your "
 "interests.</li>"
 
 #: admin/oik-default-privacy-policy.inc:42
@@ -145,10 +145,10 @@ msgid ""
 "physical, electronic and managerial procedures to safeguard and secure the "
 "information we collect online.</p>"
 msgstr ""
-"<p>We ArE ctmtimoed tO einursng that yuor iomfintroan Is scuree. In oerdr tO "
-"penervt uauihteonsrd accses Or durcislsoe, wE have pUt In palce suabilte "
-"pyahscil, enteocrlic And mngeraiaal puceerrdos tO srgafaued And srceue thE "
-"irftianoomn wE celolct online.</p>"
+"<p>We ArE cteimotmd tO eniursng taht yuor imaontorfin Is sucere. In oredr tO "
+"pevnret uetrsihanoud accses Or dlcuissore, wE have pUt In plcae sliuatbe "
+"pcaisyhl, eretoclnic And mgneaaairl peeocdurrs tO serufgaad And srceue thE "
+"ifmanoirton wE ccleolt online.</p>"
 
 #: admin/oik-default-privacy-policy.inc:81
 msgid "<h3>What is a cookie?</h3>"
@@ -159,24 +159,24 @@ msgid ""
 "<p>Cookies are text files containing small amounts of information which are "
 "downloaded to your device when you visit a website. "
 msgstr ""
-"<p>Cookies ArE text flies cantnniiog slaml auntoms Of iofoarnitmn whcih ArE "
-"deooadnlwd tO your diceve when yOU vsiit A wbieste. "
+"<p>Cookies ArE txet fiels citannoing smlal aounmts Of imitoanorfn wcihh ArE "
+"dodnwleoad tO yuor dveice wehn yOU viist A wtbiese. "
 
 #: admin/oik-default-privacy-policy.inc:83
 msgid ""
 "Cookies are then sent back to the originating website on each subsequent "
 "visit, or to another website that recognises that cookie. "
 msgstr ""
-"Cieokos ArE tehn snet back tO thE oinritignag wbitsee On ecah senqebsuut "
-"visit, Or tO aohtner wbseite taht renocisegs taht cikooe. "
+"Coeoiks ArE then snet back tO thE otngiirinag wsetibe On each sbseenquut "
+"visit, Or tO ahtoenr wbsteie that roncgseies taht cooike. "
 
 #: admin/oik-default-privacy-policy.inc:84
 msgid ""
 "Cookies are useful because they allow a website to recognise a user's "
 "device. "
 msgstr ""
-"Ckooies ArE uufsel bueasce tehy aollw A webiste tO rigncsoee A uesr's "
-"dvicee. "
+"Coeokis ArE ufeusl baeucse tehy aollw A wtbiese tO rcginsoee A uesr's "
+"dvecie. "
 
 #: admin/oik-default-privacy-policy.inc:85
 msgid "</p>"
@@ -184,7 +184,7 @@ msgstr "</p>"
 
 #: admin/oik-default-privacy-policy.inc:87
 msgid "<p>You can find more information about cookies at:</p><ul>"
-msgstr "<p>You cAn find more iamoritofnn aoubt ckioeos at:</p><ul>"
+msgstr "<p>You cAn fnid mroe iftaonromin aobut cieokos at:</p><ul>"
 
 #: admin/oik-default-privacy-policy.inc:88
 msgid ""
@@ -207,7 +207,7 @@ msgid ""
 "<li>For a video about cookies visit <a href=\"http://www.google.co.uk/"
 "goodtoknow/data-on-the-web/cookies\">a look at cookies</a></li>"
 msgstr ""
-"<li>For A vedio aoubt ciokeos viist <a href=\"http://www.google.co.uk/"
+"<li>For A vedio aoubt ceooiks vsiit <a href=\"http://www.google.co.uk/"
 "goodtoknow/data-on-the-web/cookies\">a look At cookies</a></li>"
 
 #: admin/oik-default-privacy-policy.inc:93
@@ -216,29 +216,29 @@ msgid ""
 "efficiently, remembering your preferences, and generally improve the user "
 "experience. "
 msgstr ""
-"Cioekos dO lots Of defnfiret jbos, lkie lteintg yOU ngvtiaae bweeten peags "
-"elnitfcifey, rimmerenbeg yuor pefernerces, And gnrlaeely ipvmroe thE uesr "
-"ecepxenrie. "
+"Coekois dO ltos Of dnreffeit jobs, lkie ltneitg yOU nvaiagte beteewn pegas "
+"eelnicfftiy, rrebenmmeig yuor prfceeeenrs, And glaneerly iomvrpe thE uesr "
+"enrecxeipe. "
 
 #: admin/oik-default-privacy-policy.inc:94
 msgid ""
 "They can also help to ensure that adverts you see online are more relevant "
 "to you and your interests. "
 msgstr ""
-"Tehy cAn aslo help tO esrune that atredvs yOU sEE olnine ArE mroe raevlent "
-"tO yOU And yuor irtteenss. "
+"Tehy cAn aslo hlep tO ersune taht adevrts yOU sEE onnlie ArE mroe rvelnaet "
+"tO yOU And yuor iestrnets. "
 
 #: admin/oik-default-privacy-policy.inc:95
 msgid ""
 "The cookies used on this website have been categorised based on the "
 "categories found in the ICC UK Cookie guide. "
 msgstr ""
-"ThE ceokois used On tihs wsitebe hvae been ceaosrgteid baesd On thE "
-"citgoarees funod In thE ICC UK Ciokoe giude. "
+"ThE cikooes uesd On this wsbteie have been coiatsgeerd beasd On thE "
+"cgoteiears fnuod In thE ICC UK Ckooie gidue. "
 
 #: admin/oik-default-privacy-policy.inc:97
 msgid "<h3>Category 1: strictly necessary cookies</h3>"
-msgstr "<h3>Category 1: stctliry neercsasy cookies</h3>"
+msgstr "<h3>Category 1: stctrily nraeescsy cookies</h3>"
 
 #: admin/oik-default-privacy-policy.inc:98
 msgid ""
@@ -247,14 +247,14 @@ msgid ""
 "Without these cookies services you have asked for, like shopping baskets or "
 "e-billing, cannot be provided.</p>"
 msgstr ""
-"<p>These ckeoios ArE eenssiatl In odrer tO eblnae yOU tO mvoe anroud thE "
-"wbtseie And UsE Its feteuars, scuh As aiesccnsg scuree aeras Of thE wtseibe. "
-"Wtiuoht teshe coikoes srecvies yOU hvae aeskd fOr, like soiphnpg bstaeks Or "
-"E-blniilg, cnonat bE provided.</p>"
+"<p>These coikoes ArE eaintssel In oedrr tO ebnlae yOU tO mvoe auonrd thE "
+"webiste And UsE Its fartuees, such As aecnsicsg scerue araes Of thE wstbeie. "
+"Wuhitot tsehe cooikes seievrcs yOU hvae aeksd fOr, lkie snhpiopg btksaes Or "
+"E-bliilng, cnonat bE provided.</p>"
 
 #: admin/oik-default-privacy-policy.inc:100
 msgid "<h3>Category 2: performance cookies</h3>"
-msgstr "<h3>Category 2: permcrofane cookies</h3>"
+msgstr "<h3>Category 2: proaecmfrne cookies</h3>"
 
 #: admin/oik-default-privacy-policy.inc:101
 msgid ""
@@ -264,11 +264,11 @@ msgid ""
 "identifies a visitor. All information these cookies collect is aggregated "
 "and therefore anonymous. It is only used to improve how a website works.</p>"
 msgstr ""
-"<p>These coekios cllecot iiatofornmn aoubt hOw vstriios UsE A wsitbee, fOr "
-"iatscnne wichh peags vsiotirs gO tO most otefn, And If tehy gEt eorrr "
-"maeessgs from wEb paegs. Thsee ckoioes dOn't cclolet imainotfron taht "
-"ifetdinies A vtiiosr. All itoafnmoirn teshe ciooeks coecllt Is aggearegtd "
-"And trrheeofe amnoonuys. It Is olny used tO ipromve hOw A wibstee works.</p>"
+"<p>These coeokis clcloet ifrtnmaioon auobt hOw voritsis UsE A wstbiee, fOr "
+"itascnne wcihh peags voriists gO tO msot often, And If tehy gEt eorrr "
+"meeasgss form wEb pgaes. Tehse ceokois dOn't clcloet infmriaootn taht "
+"ineditfeis A vioitsr. All iinramooftn thsee ckooies cellcot Is arateggged "
+"And trorefehe anouyomns. It Is olny uesd tO iropmve hOw A wibtsee works.</p>"
 
 #: admin/oik-default-privacy-policy.inc:103
 #: admin/oik-default-privacy-policy.inc:108
@@ -276,12 +276,12 @@ msgid ""
 "<p>By using our website, you agree that we can place these type of cookies "
 "on your device.</p>"
 msgstr ""
-"<p>By uisng OUr wsetbie, yOU aerge taht wE cAn palce thsee type Of ckoeois "
+"<p>By usnig OUr witsbee, yOU argee taht wE cAn plcae tshee tpye Of cokieos "
 "On yuor device.</p>"
 
 #: admin/oik-default-privacy-policy.inc:105
 msgid "<h3>Category 3: functionality cookies</h3>"
-msgstr "<h3>Category 3: ftcntniuoaily cookies</h3>"
+msgstr "<h3>Category 3: ftltaiicunony cookies</h3>"
 
 #: admin/oik-default-privacy-policy.inc:106
 msgid ""
@@ -296,20 +296,20 @@ msgid ""
 "information these cookies collect may be anonymised and they cannot track "
 "your browsing activity on other websites.</p>"
 msgstr ""
-"<p>These coeoiks alolw thE wetsbie tO rmmeeebr cchoeis yOU make (scuh As "
-"yuor uesr name, lgaanuge Or thE rogien yOU ArE In) And prdvioe enhencad, "
-"mroe pneorasl feaeurts. FOr iacnsnte, A wiestbe mAy bE albe tO pvoidre yOU "
-"wtih local weeathr rotreps Or tfrafic nwes by srnotig In A coioke thE roiegn "
-"In whcih yOU ArE crlnrutey ltcoead. Tsehe ceiokos cAn aslo bE uesd tO "
-"reeembmr cganhes yOU hvae mdae tO txet szie, fnots And ohter ptras Of wEb "
-"pegas taht yOU cAn cssitumoe. Tehy mAy aslo bE uesd tO pdirove sceievrs yOU "
-"hvae aeksd fOr scuh As whnctiag A video Or cotinemnmg On A bolg. ThE "
-"imfntoaoirn tsehe coekois cllcoet mAy bE asyoinnemd And tehy cnonat tcark "
-"yuor bwsniorg aivtticy On otehr websites.</p>"
+"<p>These ceookis aollw thE wbsiete tO remebemr chcieos yOU make (scuh As "
+"your user nmae, langague Or thE reiogn yOU ArE In) And pdiovre echeannd, "
+"mroe praoesnl furaeets. FOr inastnce, A witesbe mAy bE albe tO pvrdoie yOU "
+"with lcoal wthaeer rtorpes Or tffaric news by stronig In A cooike thE rgioen "
+"In wcihh yOU ArE ctnlreury lcatoed. Tshee cokoies cAn aslo bE uesd tO "
+"remeembr ceanhgs yOU have mdae tO txet size, fotns And ohetr parts Of wEb "
+"pages that yOU cAn comsstiue. Tehy mAy aslo bE uesd tO poridve srceives yOU "
+"have aeksd fOr scuh As wntacihg A viedo Or cmmntnioeg On A bolg. ThE "
+"iaotofnmrin teshe ckoeois clelcot mAy bE aeosnnmyid And tehy caonnt trcak "
+"yuor bsoirwng acittivy On ohetr websites.</p>"
 
 #: admin/oik-default-privacy-policy.inc:110
 msgid "<h3>Category 4: targeting cookies or advertising cookies</h3>"
-msgstr "<h3>Category 4: tgntreiag ceoioks Or asidnvitreg cookies</h3>"
+msgstr "<h3>Category 4: tnaegrtig cokeois Or asveditirng cookies</h3>"
 
 #: admin/oik-default-privacy-policy.inc:111
 msgid ""
@@ -322,36 +322,36 @@ msgid ""
 "Quite often targeting or advertising cookies will be linked to site "
 "functionality provided by the other organizations.</p>"
 msgstr ""
-"<p>These ckooies ArE uesd tO deveilr atvders mroe revlenat tO yOU And your "
-"ieersttns They ArE also uesd tO liimt thE nubemr Of tiems yOU sEE An "
-"amsteevienrdt As wlel As hlep mrauese thE ectivnefeesfs Of thE asvditrenig "
-"cagipamn. They ArE uslualy peclad by adrnvtseiig noewrkts wtih thE wbsetie "
-"oeoptrar's pmseoisrin. Tehy rmbmeeer taht yOU hvae vseitid A wbseite And "
-"tihs iomiafrnton Is srahed wtih ohter oragtonnasiis such As aevdtiserrs. "
-"Qitue otfen trantigeg Or aevdinsitrg ciokeos wlil bE lieknd tO site "
-"flnoctuiitnay pevrodid by thE other organizations.</p>"
+"<p>These coieoks ArE uesd tO deilver aevrdts mroe rlvnaeet tO yOU And yuor "
+"ietnretss They ArE aslo uesd tO lmiit thE nembur Of teims yOU sEE An "
+"arteeeinvdmst As well As hlep maersue thE efenvcestfeis Of thE ardvenstiig "
+"caimgpan. Tehy ArE uullasy pcelad by aidvreintsg nrweokts wtih thE wietsbe "
+"oeotarpr's pisirmoesn. Tehy rmmeeber taht yOU hvae viteisd A wibsete And "
+"tihs inroimoatfn Is saehrd wtih other oaanrontigsis scuh As aidsvetrers. "
+"Qitue oeftn trtangeig Or ardivtesnig coikoes will bE lkneid tO site "
+"fnlaotunictiy pdievrod by thE otehr organizations.</p>"
 
 #: admin/oik-default-privacy-policy.inc:113
 msgid ""
 "A list of all the cookies used on this website by category is set out below."
 msgstr ""
-"A list Of All thE coiokes uesd On this wbtiese by ceotgray Is sEt OUt boelw."
+"A lsit Of All thE cekioos uesd On tihs wbitsee by cgretoay Is sEt OUt boelw."
 
 #: admin/oik-default-privacy-policy.inc:118
 msgid "<h3>Links to other websites</h3>"
-msgstr "<h3>Links tO ohter websites</h3>"
+msgstr "<h3>Links tO otehr websites</h3>"
 
 #: admin/oik-default-privacy-policy.inc:119
 msgid "<p>Our website may contain links to other websites of interest. "
-msgstr "<p>Our wbstiee mAy caotnin likns tO otehr wsebites Of ienertst. "
+msgstr "<p>Our wbieste mAy cnatoin likns tO oehtr wbtseies Of irtenset. "
 
 #: admin/oik-default-privacy-policy.inc:120
 msgid ""
 "However, once you have used these links to leave our site, you should note "
 "that we do not have any control over that other website. "
 msgstr ""
-"Hoevewr, ocne yOU hvae uesd thsee lniks tO lvaee OUr stie, yOU soluhd ntoe "
-"taht wE dO nOt hvae Any conrotl over taht oehtr wsbteie. "
+"Hveweor, ocne yOU hvae uesd tsehe lknis tO levae OUr site, yOU sholud ntoe "
+"taht wE dO nOt hvae Any corntol oevr that ohetr webitse. "
 
 #: admin/oik-default-privacy-policy.inc:121
 msgid ""
@@ -359,29 +359,29 @@ msgid ""
 "information which you provide whilst visiting such sites and such sites are "
 "not governed by this privacy statement. "
 msgstr ""
-"Tferrohee, wE cnoant bE rislnepsobe fOr thE ptocoretin And pvacriy Of Any "
-"irimoftnoan wihch yOU povdire wlshit vsitinig scuh siets And scuh siets ArE "
-"nOt geeonrvd by this pvrciay sneemtatt. "
+"Tfeohrere, wE conant bE rioelnpsbse fOr thE ptceiroton And prvciay Of Any "
+"ifnoiaromtn wcihh yOU pirdove wlhsit vnitisig such sties And scuh sties ArE "
+"nOt grnveoed by tihs pravicy stmaneett. "
 
 #: admin/oik-default-privacy-policy.inc:122
 msgid ""
 "You should exercise caution and look at the privacy statement applicable to "
 "the website in question.</p>"
 msgstr ""
-"YOU sluohd eexrisce cotuain And look At thE pcviary sttmeneat aipllpcabe tO "
-"thE witsebe In question.</p>"
+"YOU shloud erixecse cutioan And look At thE picravy semttneat apilplabce tO "
+"thE webtise In question.</p>"
 
 #: admin/oik-default-privacy-policy.inc:123
 msgid "<h3>Controlling your personal information</h3>"
-msgstr "<h3>Controlling yuor preansol information</h3>"
+msgstr "<h3>Controlling yuor poesrnal information</h3>"
 
 #: admin/oik-default-privacy-policy.inc:124
 msgid ""
 "<p>You may choose to restrict the collection or use of your personal "
 "information in the following ways:</p>"
 msgstr ""
-"<p>You mAy cooshe tO rcrteist thE cocilloten Or UsE Of yuor pnsareol "
-"ifrnotomian In thE folniwlog ways:</p>"
+"<p>You mAy chsooe tO rrtsciet thE cceillootn Or UsE Of your psoaenrl "
+"iotfomairnn In thE fnoiollwg ways:</p>"
 
 #: admin/oik-default-privacy-policy.inc:127
 msgid ""
@@ -389,9 +389,9 @@ msgid ""
 "box that you can click to indicate that you do not want the information to "
 "be used by anybody for direct marketing purposes</li>"
 msgstr ""
-"<li>whenever yOU ArE aeskd tO flil In A form On thE wtbisee, look fOr thE "
-"bOx taht yOU cAn ciclk tO iticdane that yOU dO nOt wnat thE irationmofn tO "
-"bE used by ayondby fOr dierct mreniaktg purposes</li>"
+"<li>whenever yOU ArE aeksd tO fill In A from On thE wsiebte, look fOr thE "
+"bOx taht yOU cAn ccilk tO icntdaie taht yOU dO nOt wnat thE iiomnfatorn tO "
+"bE uesd by anboydy fOr dricet mianketrg purposes</li>"
 
 #: admin/oik-default-privacy-policy.inc:128
 msgid ""
@@ -399,9 +399,9 @@ msgid ""
 "direct marketing purposes, you may change your mind at any time by writing "
 "to or emailing us at [bw_mailto]</li>"
 msgstr ""
-"<li>if yOU hvae pueovsilry aeegrd tO Us unsig yuor pernsaol irmoanoftin fOr "
-"dcreit mtrinkaeg pposures, yOU mAy chngae yuor mnid At Any tmie by wrnitig "
-"tO Or eimilang Us At [bw_mailto]</li>"
+"<li>if yOU have pviresuoly agered tO Us unsig yuor pasernol inaifortomn fOr "
+"deicrt mnakrteig psueorps, yOU mAy chagne your mind At Any tmie by wtiinrg "
+"tO Or enimialg Us At [bw_mailto]</li>"
 
 #: admin/oik-default-privacy-policy.inc:131
 msgid ""
@@ -411,10 +411,10 @@ msgid ""
 "third parties which we think you may find interesting if you tell us that "
 "you wish this to happen.</p>"
 msgstr ""
-"<p>We will nOt slel, dutbriitse Or laese yuor paoernsl imrfiotnoan tO trhid "
-"ptaries unesls wE hvae yuor psieiorsmn Or ArE requried by lAw tO dO sO. WE "
-"mAy UsE yuor pnaserol iiorotafmnn tO send yOU piamrotnool irfoonaitmn auobt "
-"tirhd preitas whcih wE tinhk yOU mAy fnid irtnesntieg If yOU tlel Us taht "
+"<p>We wlil nOt slel, dbtistruie Or lesae yuor pseroanl itroiofmann tO tihrd "
+"ptrieas usenls wE hvae yuor psisimreon Or ArE rqereiud by lAw tO dO sO. WE "
+"mAy UsE yuor proasenl ioioamtrnfn tO sned yOU patooinorml inimtrfooan about "
+"trihd praties wcihh wE tnhik yOU mAy fnid irtieenstng If yOU tell Us taht "
 "yOU wsih tihs tO happen.</p>"
 
 #: admin/oik-default-privacy-policy.inc:132
@@ -422,19 +422,19 @@ msgid ""
 "<p>You may request details of personal information which we hold about you "
 "under the Data Protection Act 1998.</p>"
 msgstr ""
-"<p>You mAy ruseeqt dltieas Of psronael inifamroton wichh wE hold aobut yOU "
-"unedr thE Dtaa Prctoteion Act 1998.</p>"
+"<p>You mAy rqeseut daeitls Of psaonerl itfaiornomn wchih wE hlod aobut yOU "
+"uendr thE Data Piocettorn Act 1998.</p>"
 
 #: admin/oik-default-privacy-policy.inc:133
 msgid "<p>A small fee will be payable.</p>"
-msgstr "<p>A salml fEE will bE payable.</p>"
+msgstr "<p>A slaml fEE will bE payable.</p>"
 
 #: admin/oik-default-privacy-policy.inc:134
 msgid ""
 "If you would like a copy of the information held on you please write to: "
 "[bw_address]</p>"
 msgstr ""
-"If yOU wulod lkie A copy Of thE iirnfaomton hled On yOU pesale wrtie tO: "
+"If yOU wulod lkie A cpoy Of thE ioriofamntn hled On yOU peasle wtrie tO: "
 "[bw_address]</p>"
 
 #: admin/oik-default-privacy-policy.inc:135
@@ -443,228 +443,228 @@ msgid ""
 "incomplete, please write to or email us as soon as possible at the above "
 "address. We will promptly correct any information found to be incorrect.</p>"
 msgstr ""
-"<p>If yOU beviele taht Any ioroafimtnn wE ArE hoildng On yOU Is iencrocrt Or "
-"itneplcome, psaele wtrie tO Or eimal Us As soon As pislsobe At thE aovbe "
-"aedsdrs. WE wlil prolpmty ccoerrt Any irfootimnan fonud tO bE incorrect.</p>"
+"<p>If yOU biveele that Any iaomrfotinn wE ArE hiondlg On yOU Is iecroncrt Or "
+"ilctpmoene, pselae wtrie tO Or emial Us As soon As pssolbie At thE avboe "
+"adresds. WE wlil ppormlty cocrert Any itnorfaimon fonud tO bE incorrect.</p>"
 
 #: admin/oik-privacy-policy.php:36
 msgid "privacy policy"
-msgstr "pciarvy plicoy"
+msgstr "paivrcy picloy"
 
-#: admin/oik-privacy-policy.php:69
+#: admin/oik-privacy-policy.php:75
 msgid "privacy policy setup"
-msgstr "pviarcy polciy sutep"
+msgstr "pvicary picloy seutp"
 
-#: admin/oik-privacy-policy.php:70
+#: admin/oik-privacy-policy.php:76
 msgid "Privacy policy"
-msgstr "Parcviy pcoily"
+msgstr "Prcaviy plcioy"
 
-#: admin/oik-privacy-policy.php:73 admin/oik-privacy-policy.php:148
+#: admin/oik-privacy-policy.php:79 admin/oik-privacy-policy.php:154
 msgid "Preview"
-msgstr "Pevreiw"
-
-#: admin/oik-privacy-policy.php:74
-msgid "Generate"
-msgstr "Geenrate"
+msgstr "Preivew"
 
 #: admin/oik-privacy-policy.php:80
+msgid "Generate"
+msgstr "Geaertne"
+
+#: admin/oik-privacy-policy.php:86
 msgid ""
 "Choose the content for your privacy policy, change the text as required."
 msgstr ""
-"Chsooe thE cenontt fOr your paivrcy plcoiy, cahgne thE txet As riuqered."
+"Cshooe thE ceonntt fOr yuor pvarciy plcioy, canghe thE txet As reiuqerd."
 
-#: admin/oik-privacy-policy.php:81
+#: admin/oik-privacy-policy.php:87
 msgid "Click on <b>Preview</b> to see how the privacy policy will appear."
-msgstr "Clcik On <b>Preview</b> tO sEE hOw thE pcrvaiy picoly will appaer."
-
-#: admin/oik-privacy-policy.php:91
-msgid "Introduction"
-msgstr "Iootdncritun"
-
-#: admin/oik-privacy-policy.php:92
-msgid "Effective from"
-msgstr "Evcetffie from"
-
-#: admin/oik-privacy-policy.php:94
-msgid "We collect"
-msgstr "WE colclet"
-
-#: admin/oik-privacy-policy.php:95
-msgid ".. Name"
-msgstr ".. Name"
-
-#: admin/oik-privacy-policy.php:96
-msgid ".. Contact"
-msgstr ".. Coctnat"
+msgstr "Clcik On <b>Preview</b> tO sEE hOw thE prvcaiy plcioy wlil apeapr."
 
 #: admin/oik-privacy-policy.php:97
-msgid ".. Demographic"
-msgstr ".. Dioremhapgc"
+msgid "Introduction"
+msgstr "Ittdoucionrn"
 
 #: admin/oik-privacy-policy.php:98
-msgid ".. Other"
-msgstr ".. Oethr"
+msgid "Effective from"
+msgstr "Eicevftfe form"
 
-#: admin/oik-privacy-policy.php:99 admin/oik-privacy-policy.php:106
-#: admin/oik-privacy-policy.php:115 admin/oik-privacy-policy.php:137
+#: admin/oik-privacy-policy.php:100
+msgid "We collect"
+msgstr "WE ccelolt"
+
+#: admin/oik-privacy-policy.php:101
+msgid ".. Name"
+msgstr ".. Nmae"
+
+#: admin/oik-privacy-policy.php:102
+msgid ".. Contact"
+msgstr ".. Cnaoctt"
+
+#: admin/oik-privacy-policy.php:103
+msgid ".. Demographic"
+msgstr ".. Dapgehrmoic"
+
+#: admin/oik-privacy-policy.php:104
+msgid ".. Other"
+msgstr ".. Ohetr"
+
+#: admin/oik-privacy-policy.php:105 admin/oik-privacy-policy.php:112
+#: admin/oik-privacy-policy.php:121 admin/oik-privacy-policy.php:143
 msgid "list end"
 msgstr "lsit End"
 
-#: admin/oik-privacy-policy.php:101
+#: admin/oik-privacy-policy.php:107
 msgid "We use it for"
 msgstr "WE UsE It fOr"
 
-#: admin/oik-privacy-policy.php:102
-msgid ".. Internally"
-msgstr ".. Ilrelnatny"
-
-#: admin/oik-privacy-policy.php:103
-msgid ".. Improve"
-msgstr ".. Ipvmore"
-
-#: admin/oik-privacy-policy.php:104
-msgid ".. Emails"
-msgstr ".. Emalis"
-
-#: admin/oik-privacy-policy.php:105
-msgid ".. Research"
-msgstr ".. Rercsaeh"
-
 #: admin/oik-privacy-policy.php:108
-msgid "Security"
-msgstr "Seiurtcy"
+msgid ".. Internally"
+msgstr ".. Iearlnntly"
+
+#: admin/oik-privacy-policy.php:109
+msgid ".. Improve"
+msgstr ".. Irvpmoe"
 
 #: admin/oik-privacy-policy.php:110
+msgid ".. Emails"
+msgstr ".. Ealmis"
+
+#: admin/oik-privacy-policy.php:111
+msgid ".. Research"
+msgstr ".. Rceesrah"
+
+#: admin/oik-privacy-policy.php:114
+msgid "Security"
+msgstr "Siutercy"
+
+#: admin/oik-privacy-policy.php:116
 msgid "<b>Cookies</b>"
 msgstr "<b>Cookies</b>"
 
-#: admin/oik-privacy-policy.php:111
-msgid "Cookie info"
-msgstr "Cokioe info"
-
-#: admin/oik-privacy-policy.php:112
-msgid ".. All about cookies"
-msgstr ".. All aubot ceoioks"
-
-#: admin/oik-privacy-policy.php:113
-msgid ".. Online choices"
-msgstr ".. Oinlne ciehcos"
-
-#: admin/oik-privacy-policy.php:114
-msgid ".. Google video"
-msgstr ".. Glgooe vdieo"
-
-#: admin/oik-privacy-policy.php:116
-msgid "More info"
-msgstr "Mroe ifno"
-
 #: admin/oik-privacy-policy.php:117
-msgid "Relevant adverts"
-msgstr "Rvalneet arvdtes"
+msgid "Cookie info"
+msgstr "Ciokoe info"
 
 #: admin/oik-privacy-policy.php:118
-msgid "Categorised"
-msgstr "Cotgreeisad"
+msgid ".. All about cookies"
+msgstr ".. All about ceoioks"
 
 #: admin/oik-privacy-policy.php:119
-msgid "Category 1"
-msgstr "Ceotrgay 1"
+msgid ".. Online choices"
+msgstr ".. Olnnie coecihs"
 
-#: admin/oik-privacy-policy.php:121
-msgid "Category 2"
-msgstr "Crtgoeay 2"
+#: admin/oik-privacy-policy.php:120
+msgid ".. Google video"
+msgstr ".. Gologe veido"
 
-#: admin/oik-privacy-policy.php:122 admin/oik-privacy-policy.php:124
-msgid "Consent"
-msgstr "Cenonst"
+#: admin/oik-privacy-policy.php:122
+msgid "More info"
+msgstr "Mroe info"
 
 #: admin/oik-privacy-policy.php:123
-msgid "Category 3"
-msgstr "Cgtraeoy 3"
+msgid "Relevant adverts"
+msgstr "Reelavnt atvedrs"
+
+#: admin/oik-privacy-policy.php:124
+msgid "Categorised"
+msgstr "Cgtseeaiord"
 
 #: admin/oik-privacy-policy.php:125
-msgid "Category 4"
-msgstr "Cgeartoy 4"
+msgid "Category 1"
+msgstr "Cgaertoy 1"
 
 #: admin/oik-privacy-policy.php:127
-msgid "Cookie list"
-msgstr "Cooike lsit"
+msgid "Category 2"
+msgstr "Cotergay 2"
+
+#: admin/oik-privacy-policy.php:128 admin/oik-privacy-policy.php:130
+msgid "Consent"
+msgstr "Csonnet"
+
+#: admin/oik-privacy-policy.php:129
+msgid "Category 3"
+msgstr "Caogrtey 3"
+
+#: admin/oik-privacy-policy.php:131
+msgid "Category 4"
+msgstr "Cagteroy 4"
 
 #: admin/oik-privacy-policy.php:133
-msgid "External links"
-msgstr "Etaenrxl lkins"
-
-#: admin/oik-privacy-policy.php:134
-msgid "Personal information"
-msgstr "Psoarenl irmintoofan"
-
-#: admin/oik-privacy-policy.php:135
-msgid ".. Direct marketing"
-msgstr ".. Dceirt mkrtnaeig"
-
-#: admin/oik-privacy-policy.php:136
-msgid ".. Changes"
-msgstr ".. Cahengs"
+msgid "Cookie list"
+msgstr "Cokoie lsit"
 
 #: admin/oik-privacy-policy.php:139
-msgid "Third parties"
-msgstr "Trhid pairtes"
+msgid "External links"
+msgstr "Ernteaxl lniks"
 
 #: admin/oik-privacy-policy.php:140
-msgid "Data Protection Act 1998"
-msgstr "Data Pctiotroen Act 1998"
+msgid "Personal information"
+msgstr "Ponrasel iranmtoiofn"
 
 #: admin/oik-privacy-policy.php:141
-msgid "Small fee"
-msgstr "Salml fEE"
+msgid ".. Direct marketing"
+msgstr ".. Dicret meirkantg"
 
 #: admin/oik-privacy-policy.php:142
+msgid ".. Changes"
+msgstr ".. Cahnges"
+
+#: admin/oik-privacy-policy.php:145
+msgid "Third parties"
+msgstr "Trhid pitears"
+
+#: admin/oik-privacy-policy.php:146
+msgid "Data Protection Act 1998"
+msgstr "Dtaa Petoirtocn Act 1998"
+
+#: admin/oik-privacy-policy.php:147
+msgid "Small fee"
+msgstr "Smlal fEE"
+
+#: admin/oik-privacy-policy.php:148
 msgid "Write to"
-msgstr "Wrtie tO"
+msgstr "Witre tO"
 
-#: admin/oik-privacy-policy.php:143
+#: admin/oik-privacy-policy.php:149
 msgid "Correction"
-msgstr "Coortciern"
+msgstr "Croeocirtn"
 
-#: admin/oik-privacy-policy.php:200
+#: admin/oik-privacy-policy.php:206
 msgid "Reset to defaults"
-msgstr "Rseet tO dteualfs"
+msgstr "Reest tO dlutfaes"
 
-#: admin/oik-privacy-policy.php:220
+#: admin/oik-privacy-policy.php:226
 msgid "Add to menu"
-msgstr "Add tO mneu"
+msgstr "Add tO menu"
 
-#: admin/oik-privacy-policy.php:243
+#: admin/oik-privacy-policy.php:249
 msgid "Page created:"
-msgstr "Pgae catered:"
+msgstr "Pgae ceteard:"
 
-#: admin/oik-privacy-policy.php:250
+#: admin/oik-privacy-policy.php:256
 msgid ""
 "Please select some checkboxes and <b>Preview</b> the result before choosing "
 "<b>Generate page</b>"
 msgstr ""
-"Pelsae seelct smoe chbeekoxcs And <b>Preview</b> thE rlesut borfee cnsoohig "
+"Palese selcet smoe cxebckhoes And <b>Preview</b> thE rseult brefoe chsonoig "
 "<b>Generate page</b>"
 
-#: admin/oik-privacy-policy.php:261
+#: admin/oik-privacy-policy.php:267
 msgid "Page title"
-msgstr "Pgae ttlie"
+msgstr "Pgae tilte"
 
-#: admin/oik-privacy-policy.php:265
+#: admin/oik-privacy-policy.php:271
 msgid "Generate page"
-msgstr "Grtaeene pgae"
+msgstr "Geatnree pgae"
 
-#: admin/oik-privacy-policy.php:294
+#: admin/oik-privacy-policy.php:300
 msgid "none"
-msgstr "none"
+msgstr "nnoe"
 
-#: admin/oik-privacy-policy.php:301
+#: admin/oik-privacy-policy.php:307
 msgid "The new page will be added to menu: "
-msgstr "ThE nEw pgae will bE added tO mneu: "
+msgstr "ThE nEw page will bE aeddd tO mneu: "
 
 #. Plugin Name of the plugin/theme
 msgid "oik-privacy-policy"
-msgstr "OIk-pcirvay-pilocy"
+msgstr "OIk-pirvcay-piolcy"
 
 #. Plugin URI of the plugin/theme
 msgid "http://www.oik-plugins.com/oik-plugins/oik-privacy-policy"
@@ -675,14 +675,14 @@ msgid ""
 "Generate a privacy policy page, compliant with UK cookie law (EU cookie "
 "directive) for use on your website"
 msgstr ""
-"Gnetaree A prvcaiy piocly page, clomapnit wtih UK ckiooe lAw (EU ckooie "
-"dvtreciie) fOr UsE On yuor wbsiete"
+"Garetnee A pvircay pcoliy pgae, cmnlapoit with UK cokoie lAw (EU ckooie "
+"dricveite) fOr UsE On your wsbitee"
 
 #. Author of the plugin/theme
 msgid "bobbingwide"
-msgstr "bnigdbiwboe"
+msgstr "bwbnbdgoiie"
 
 #. Author URI of the plugin/theme
-msgid "http://www.bobbingwide.com"
-msgstr "http://www.bobbingwide.com"
+msgid "http://www.oik-plugins.com/author/bobbingwide"
+msgstr "http://www.oik-plugins.com/author/bobbingwide"
 
