@@ -3,8 +3,8 @@
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 3.9
-* Tested up to: 4.3
-* Stable tag: 1.3
+* Tested up to: 4.4
+* Stable tag: 1.3.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,7 +103,7 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 
 ## Upgrade Notice 
 # 1.3.1 
-* Tested with WordPress 4.3. Now dependent upon oik v2.5 or higher.
+* Tested with WordPress 4.4. Now dependent upon oik v2.5 or higher.
 
 # 1.3
 * Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
@@ -121,7 +121,7 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 # 1.3.1 
 * Changed: Dependent upon oik v2.5
 * Changed: Priority of response to "admin_notices" changed from 10 to 12.
-* Tested: with WordPress 4.3 and WordPress Multi-Site
+* Tested: with WordPress 4.4 and WordPress Multi-Site
 
 # 1.3 
 * Tested: With WordPress 3.9 through 4.0
