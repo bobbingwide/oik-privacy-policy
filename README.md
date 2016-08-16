@@ -1,10 +1,11 @@
 # oik-privacy-policy 
+![banner](https://raw.githubusercontent.com/bobbingwide/oik-privacy-policy/master/assets/oik-privacy-policy-banner-772x250.jpg)
 * Contributors: bobbingwide, vsgloik
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 3.9
-* Tested up to: 4.4
-* Stable tag: 1.3.1
+* Tested up to: 4.6
+* Stable tag: 1.3.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -102,10 +103,13 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
+# 1.3.2 
+* Tested with WordPress 4.6.
+
 # 1.3.1 
 * Tested with WordPress 4.4. Now dependent upon oik v2.5 or higher.
 
-# 1.3
+# 1.3 
 * Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
 
 # 1.2 
@@ -118,6 +122,10 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 * Depends upon oik version 1.13 or higher.
 
 ## Changelog 
+# 1.3.2 
+* Fixed: Update the link to Google's Good to Know video [github bobbingwide oik-privacy-policy issues 1]
+* Tested: With WordPress 4.6 and Multisite
+
 # 1.3.1 
 * Changed: Dependent upon oik v2.5
 * Changed: Priority of response to "admin_notices" changed from 10 to 12.

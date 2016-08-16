@@ -1,4 +1,4 @@
-<?php // (C) Copyright Business Link 2012, (C) Bobbing Wide 2012, 2014
+<?php // (C) Copyright Business Link 2012, (C) Bobbing Wide 2012-2016
 
 /** 
  * Return an array of the text for each of the different selectable parts of the privacy policy
@@ -87,7 +87,7 @@ function oik_default_privacy_policy() {
   $text['cookies-info'] = __( "<p>You can find more information about cookies at:</p><ul>", 'oik-privacy-policy' ); 
   $text['cookies-all-about'] = __( "<li><a href=\"http://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>", 'oik-privacy-policy' );
   $text['cookies-online-choices'] = __( "<li><a href=\"http://www.youronlinechoices.eu\">www.youronlinechoices.eu</a></li>", 'oik-privacy-policy' );
-  $text['cookies-google-video'] = __( "<li>For a video about cookies visit <a href=\"http://www.google.co.uk/goodtoknow/data-on-the-web/cookies\">a look at cookies</a></li>", 'oik-privacy-policy' );
+  $text['cookies-google-video'] = __( "<li>For a video about cookies visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>", 'oik-privacy-policy' );
   $text['cookies-info-eul'] = __( "</ul>", 'oik-privacy-policy' );
 
   $text['cookies-more-info'] = __( "Cookies do lots of different jobs, like letting you navigate between pages efficiently, remembering your preferences, and generally improve the user experience. ", 'oik-privacy-policy' );

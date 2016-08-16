@@ -1,11 +1,16 @@
-<?php // (C) Copyright Bobbing Wide 2012-2014
+<?php // (C) Copyright Bobbing Wide 2012-2016
 
 /**
+ * Display privacy policy inactive message
+ * 
  * Display a message when oik-privacy-policy is not fully functional due to the dependencies not being activated or installed
  * Note: We can't use oik APIs here as we don't know if it's activated.
  * If the message is issued due to a version mismatch then there is a chance that one plugin attempts to use
  * functions that are not available in the dependent plugin. How do we manage this?
-*/
+ *
+ * @param string $plugin
+ * @param string $dependencies
+ */
 function oik_privacy_policy_inactive( $plugin=null, $dependencies=null ) {
   $dependencies = str_replace( ":", " version ", $dependencies );
   $text = "<p><b>oik-privacy-policy may not be fully functional</b>. It is dependent upon the <b>oik</b> plugin. ";
@@ -38,20 +43,25 @@ function oik_privacy_policy_lazy_admin_menu() {
 
 /**
  * Validate the privacy policy fields
- * 
- * @param $input 
- * @return $input 
  *
  * Note: Checkboxes don't need validating
  * and there's little point validating the text since we allow (X)HTML and shortcodes
  * AND if the user chooses to change a list start field to something else
  * it may not be necessary to check the list end is the right tag.
+ *
  * Of course, we're assuming the user is reasonably web savvy
+ * and not trying to hack the system.
+ * 
+ * @param $input 
+ * @return $input 
  */
 function oik_privacy_policy_options_validate( $input ) {
   return( $input ); 
 }
 
+/**
+ * Set textdomain context for oik_privacy_policy
+ */
 function oik_privacy_policy_i18n() {
   if ( function_exists( "bw_context" ) ) {
     bw_context( "textdomain", "oik-privacy-policy" );
