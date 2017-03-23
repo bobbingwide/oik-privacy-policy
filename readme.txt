@@ -1,10 +1,10 @@
 === oik-privacy-policy ===
 Contributors: bobbingwide, vsgloik
-Donate link: http://www.oik-plugins.com/oik/oik-donate/
+Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: privacy policy, UK cookie law, EU cookie directive, oik
 Requires at least: 3.9
-Tested up to: 4.6
-Stable tag: 1.3.2
+Tested up to: 4.7.3
+Stable tag: 1.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,9 +26,22 @@ The sample text uses shortcodes to reduce the amount of editing you need to do.
 
 Note: oik-privacy-policy is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
 Download oik from 
-[oik download](http://wordpress.org/extend/plugins/oik/)
+[oik download](https://wordpress.org/extend/plugins/oik/)
 
-== Frequently Asked Questions ==  
+== Frequently Asked Questions == 
+= Installation = 
+ 
+1. Upload the contents of the oik-privacy-policy plugin to the `/wp-content/plugins/oik-privacy-policy' directory
+1. Activate the oik-privacy-policy plugin through the 'Plugins' menu in WordPress
+1. Visit oik options > privacy policy
+1. Choose the sections to include, customise the text then Preview
+1. When satisfied Generate your Privacy policy page
+1. Deactivate the plugin
+
+Note: oik-privacy-policy is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
+Download oik from 
+[oik download](https://wordpress.org/extend/plugins/oik/)
+
 = What does this plugin do? =
 It helps with the creation of a Privacy Policy page for your website.
 It provides sample text, which you can edit, then generates a WordPress page, adding it to your chosen menu.
@@ -41,16 +54,16 @@ If you chose to retain the shortcodes in the sample text then you will still nee
 = From where did you get the sample privacy policy text? =
 The text was obtained from a document called Sample3_privacy_policy.doc, downloaded from Business Link's sample privacy policy page.
 Since May 2012 the page is no longer accessible. 
-[Download a PDF version from oik-plugins](http://www.oik-plugins.com/wp-content/uploads/2012/05/Sample3_privacy_policy.pdf)
+[Download a PDF version from oik-plugins](https://www.oik-plugins.com/wp-content/uploads/2012/05/Sample3_privacy_policy.pdf)
 
 The wording for the Cookie categories sections came from the ICC UK Cookie Guide.
-[Download ICC UK Cookie Guide Second Edition November 2012](http://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
+[Download ICC UK Cookie Guide Second Edition November 2012](https://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 = Is it OK to use this text? =
 Yes, Business Link provided a number of samples. The introduction page for the Sample IT policies, disclaimers and notices page said:
 This guide gives sample wording for common internet-related statements and notices. It outlines the main issues that these notices should cover, which in turn will help you to write your own statements tailored to your business' needs. These sample internet policies and notices can be used and modified without copyright infringement.
 
-You can still find this same text on [NI Business Info - sample IT policies, disclaimers and notices](http://nibusinessinfo.co.uk/content/sample-it-policies-disclaimers-and-notices)
+You can still find this same text on [NI Business Info - sample IT policies, disclaimers and notices](https://nibusinessinfo.co.uk/content/sample-it-policies-disclaimers-and-notices)
 
 = Which of the cookie categories do I need? =
 
@@ -64,18 +77,18 @@ For Categories 2 and 3 you *can* obtain consent by functional use.
 
 = How do I obtain consent for category 4 cookies? = 
 I recommend using a WordPress plugin such as 
-[cookie-control](http://wordpress.org/extend/plugins/cookie-control/)
+[cookie-control](https://wordpress.org/extend/plugins/cookie-control/)
 or
-[cookiecert-eu-cookie-directive](http://wordpress.org/extend/plugins/cookiecert-eu-cookie-directive/)
+[cookiecert-eu-cookie-directive](https://wordpress.org/extend/plugins/cookiecert-eu-cookie-directive/)
 or
-[frankencookie](http://wordpress.org/extend/plugins/frankencookie)
+[frankencookie](https://wordpress.org/extend/plugins/frankencookie)
 
 = Where do I find the list of cookies my site uses? =
 You should do a cookie audit. 
-Either use the [cookie-cat](http://www.wordpress.org/extend/plugins/cookie-cat/) plugin or perform a cookie audit. For more information on cookies that WordPress websites may use visit the [cookie-cat website](http://www.cookie-cat.co.uk)
+Either use the [cookie-cat](https://www.wordpress.org/plugins/cookie-cat/) plugin or perform a cookie audit. For more information on cookies that WordPress websites may use visit the [cookie-cat website](http://www.cookie-cat.co.uk)
 
-* I also recommend looking at [Cookie Control by Civic UK](http://www.civicuk.com/cookie-law/index)
-* See [Cookie Audits and Privacy Policy](http://civicuk.com/cookie-law/deployment#audit)
+* I also recommend looking at [Cookie Control by Civic UK](https://www.civicuk.com/cookie-law/index)
+* See [Cookie Audits and Privacy Policy](https://civicuk.com/cookie-law/deployment#audit)
 
 = Can this plugin generate other policies? = 
 The *WP-Policies* plugin provided a number of policies, including:
@@ -92,7 +105,7 @@ The *WP-Policies* plugin provided a number of policies, including:
 These may be added to oik-privacy-policy plugin in the future. Let us know your requirements.
 
 = Where can I find more information? = 
-[oik-privacy-policy FAQs](http://www.oik-plugins.com/oik-plugins/privacy-policy-page-generator/?oik-tab=faq)
+[oik-privacy-policy FAQs](https://www.oik-plugins.com/oik-plugins/privacy-policy-page-generator/?oik-tab=faq)
 
 == Screenshots ==
 1. oik options - privacy policy: Introduction, effective from
@@ -102,6 +115,9 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 1. Sample generated page: from What is a cookie? 
 
 == Upgrade Notice ==
+= 1.3.3 = 
+* Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1
+
 = 1.3.2 =
 * Tested with WordPress 4.6.
 
@@ -121,6 +137,12 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 * Depends upon oik version 1.13 or higher.
 
 == Changelog ==
+= 1.3.3 =
+* Tested: With WordPress 4.7.3 and WordPress Multisite
+* Tested: With PHP 7.1
+* Changed: Updated readme links
+* Changed: Used https: in links where these were known to work. Left others as http:
+
 = 1.3.2 =
 * Fixed: Update the link to Google's Good to Know video [github bobbingwide oik-privacy-policy issues 1]
 * Tested: With WordPress 4.6 and Multisite
