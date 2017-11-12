@@ -12,8 +12,11 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 	 */
 	function setUp() {
 		parent::setUp();
-		//oik_require( "admin/oik-privacy-policy.php", "oik-privacy-policy" );
 		//oik_require_lib( "oik-sc-help" );
+		if ( !defined( 'BW_TRANSLATE_DEPRECATED' ) ) {
+			define( 'BW_TRANSLATE_DEPRECATED', true ); 
+		}
+		oik_require( "admin/oik-privacy-policy.php", "oik-privacy-policy" );
 	}
 	
 	/**
@@ -96,6 +99,8 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 	 * which assumes admin/oik-privacy-policy.php has been loaded
 	 */
 	function test_oik_privacy_policy_options_do_page_bb_BB() {
+	
+		$this->setExpectedDeprecated( "bw_translate" );
 		$this->switch_to_locale( 'bb_BB' );
 		$_REQUEST['_bw_privacy_policy_reset'] = "on";
 		ob_start(); 
@@ -111,7 +116,7 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 		$this->assertNotNull( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array, "closedpostboxesnonce", "closedpostboxesnonce" );
-		$this->generate_expected_file( $html_array );
+		//$this->generate_expected_file( $html_array );
 		$this->assertArrayEqualsFile( $html_array );
 		$this->switch_to_locale( 'en_GB' );
 	}
