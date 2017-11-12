@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2016
+<?php // (C) Copyright Bobbing Wide 2012-2017
 
 /**
  * Display privacy policy inactive message
@@ -82,19 +82,22 @@ function oik_privacy_policy_options_do_page() {
   if ( $generate ) {
     oik_privacy_policy_generate_page();
   }
-  oik_menu_header( "privacy policy setup", "w60pc" );
-  oik_box( NULL, NULL, "Privacy policy", "oik_privacy_policy_options" );
+  BW_::oik_menu_header( __( "privacy policy setup", "oik-privacy-policy" ), "w60pc" );
+  BW_::oik_box( NULL, NULL, __( "Privacy policy", "oik-privacy-policy" ), "oik_privacy_policy_options" );
   ecolumn();
   scolumn( "w40pc" );
-  oik_box( NULL, NULL, "Preview", "oik_privacy_policy_preview" );
-  oik_box( NULL, NULL, "Generate", "oik_privacy_policy_generate" );
+  BW_::oik_box( NULL, NULL, __( "Preview", "oik-privacy-policy" ), "oik_privacy_policy_preview" );
+  BW_::oik_box( NULL, NULL, __( "Generate", "oik-privacy-policy" ), "oik_privacy_policy_generate" );
   oik_menu_footer();
   bw_flush();
 }
 
+/**
+ * Displays privacy policy options
+ */
 function oik_privacy_policy_options() {
-  p( "Choose the content for your privacy policy, change the text as required." );
-  p( "Click on <b>Preview</b> to see how the privacy policy will appear." );   
+  BW_::p( __( "Choose the content for your privacy policy, change the text as required.", "oik-privacy-policy" ) );
+  BW_::p( __( "Click on <b>Preview</b> to see how the privacy policy will appear.", "oik-privacy-policy" ) );   
   
   $option = "bw_privacy_policy"; 
   $options = bw_form_start( $option, "oik_privacy_policy_options" );
@@ -104,62 +107,59 @@ function oik_privacy_policy_options() {
   
   $len = 100;
   
-  bw_textarea_cb_arr( $option, "Introduction", $options, 'intro', $len, 5 );
-  bw_textarea_cb_arr( $option, "Effective from", $options, "effdate", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "Introduction", "oik-privacy-policy" ), $options, 'intro', $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Effective from", "oik-privacy-policy" ) , $options, "effdate", $len, 1 );
   
-  bw_textarea_cb_arr( $option, "We collect", $options, "wecollect", $len, 2 );
-  bw_textarea_cb_arr( $option, ".. Name", $options, "wecollect-name", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Contact", $options, "wecollect-contact", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Demographic", $options, "wecollect-demographics", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Other", $options, "wecollect-other", $len, 1 );
-  bw_textarea_cb_arr( $option, "list end", $options, "wecollect-eul", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "We collect", "oik-privacy-policy" ) , $options, "wecollect", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Name", "oik-privacy-policy" ) , $options, "wecollect-name", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Contact", "oik-privacy-policy" ) , $options, "wecollect-contact", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Demographic", "oik-privacy-policy" ) , $options, "wecollect-demographics", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Other", "oik-privacy-policy" ) , $options, "wecollect-other", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "list end", "oik-privacy-policy" ) , $options, "wecollect-eul", $len, 1 );
 
-  bw_textarea_cb_arr( $option, "We use it for", $options, "weusefor", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Internally", $options, "weusefor-internal", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Improve", $options, "weusefor-improve", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Emails", $options, "weusefor-emails", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Research", $options, "weusefor-research", $len, 1 );
-  bw_textarea_cb_arr( $option, "list end", $options, "weusefor-eul", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "We use it for", "oik-privacy-policy" ) , $options, "weusefor", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Internally", "oik-privacy-policy" ) , $options, "weusefor-internal", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Improve", "oik-privacy-policy" ) , $options, "weusefor-improve", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Emails", "oik-privacy-policy" ) , $options, "weusefor-emails", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Research", "oik-privacy-policy" ) , $options, "weusefor-research", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "list end", "oik-privacy-policy" ) , $options, "weusefor-eul", $len, 1 );
 
-  bw_textarea_cb_arr( $option, "Security", $options, "security", $len, 4 );
+  BW_::bw_textarea_cb_arr( $option, __( "Security", "oik-privacy-policy" ) , $options, "security", $len, 4 );
   
-  bw_textarea_cb_arr( $option, "<b>Cookies</b>", $options, "cookies", $len, 5 );
-  bw_textarea_cb_arr( $option, "Cookie info", $options, "cookies-info", $len, 1);
-  bw_textarea_cb_arr( $option, ".. All about cookies", $options, "cookies-all-about", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Online choices", $options, "cookies-online-choices", $len, 1 );
-  bw_textarea_cb_arr( $option, ".. Google video", $options, "cookies-google-video", $len, 2 );
-  bw_textarea_cb_arr( $option, "list end", $options, "cookies-info-eul", $len, 1 );
-  bw_textarea_cb_arr( $option, "More info", $options, "cookies-more-info", $len, 2 );
-  bw_textarea_cb_arr( $option, "Relevant adverts", $options, "cookies-help-ads", $len, 2 );
-  bw_textarea_cb_arr( $option, "Categorised", $options, "cookies-categorised", $len, 2 );
-  bw_textarea_cb_arr( $option, "Category 1", $options, "cookie-cat-1", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "<b>Cookies</b>", "oik-privacy-policy" ) , $options, "cookies", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Cookie info", "oik-privacy-policy" ) , $options, "cookies-info", $len, 1);
+  BW_::bw_textarea_cb_arr( $option, __( ".. All about cookies", "oik-privacy-policy" ) , $options, "cookies-all-about", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Online choices", "oik-privacy-policy" ) , $options, "cookies-online-choices", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Google video", "oik-privacy-policy" ) , $options, "cookies-google-video", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "list end", "oik-privacy-policy" ) , $options, "cookies-info-eul", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "More info", "oik-privacy-policy" ) , $options, "cookies-more-info", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Relevant adverts", "oik-privacy-policy" ) , $options, "cookies-help-ads", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Categorised", "oik-privacy-policy" ) , $options, "cookies-categorised", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Category 1", "oik-privacy-policy" ) , $options, "cookie-cat-1", $len, 5 );
   
-  bw_textarea_cb_arr( $option, "Category 2", $options, "cookie-cat-2", $len, 5 );
-  bw_textarea_cb_arr( $option, "Consent", $options, "cookie-consent-2", $len, 2 );
-  bw_textarea_cb_arr( $option, "Category 3", $options, "cookie-cat-3", $len, 5 );
-  bw_textarea_cb_arr( $option, "Consent", $options, "cookie-consent-3", $len, 2 );
-  bw_textarea_cb_arr( $option, "Category 4", $options, "cookie-cat-4", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Category 2", "oik-privacy-policy" ) , $options, "cookie-cat-2", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Consent", "oik-privacy-policy" ) , $options, "cookie-consent-2", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Category 3", "oik-privacy-policy" ) , $options, "cookie-cat-3", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Consent", "oik-privacy-policy" ) , $options, "cookie-consent-3", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Category 4", "oik-privacy-policy" ) , $options, "cookie-cat-4", $len, 5 );
   
-  bw_textarea_cb_arr( $option, "Cookie list", $options, "cookie-list", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Cookie list", "oik-privacy-policy" ) , $options, "cookie-list", $len, 5 );
   // This is where we will call the code to list the cookies  **?**
   
-  //bw_textarea_cb_arr( $option, "Analytics", $options, "cookies-analytics", $len, 5 );
-  //bw_textarea_cb_arr( $option, "Service", $options, "cookies-service", $len, 5 );
+  //BW_::bw_textarea_cb_arr( $option, __( "Analytics", "oik-privacy-policy" ) , $options, "cookies-analytics", $len, 5 );
+  //BW_::bw_textarea_cb_arr( $option, __( "Service", "oik-privacy-policy" ) , $options, "cookies-service", $len, 5 );
   
-  bw_textarea_cb_arr( $option, "External links", $options, "links", $len, 5 );
-  bw_textarea_cb_arr( $option, "Personal information", $options, "personal-info", $len, 2 );
-  bw_textarea_cb_arr( $option, ".. Direct marketing", $options, "personal-info-dm", $len, 2 );
-  bw_textarea_cb_arr( $option, ".. Changes", $options, "personal-info-change", $len, 2 );
-  bw_textarea_cb_arr( $option, "list end", $options, "personal-info-eul", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "External links", "oik-privacy-policy" ) , $options, "links", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Personal information", "oik-privacy-policy" ) , $options, "personal-info", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Direct marketing", "oik-privacy-policy" ) , $options, "personal-info-dm", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( ".. Changes", "oik-privacy-policy" ) , $options, "personal-info-change", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "list end", "oik-privacy-policy" ) , $options, "personal-info-eul", $len, 1 );
 
-  bw_textarea_cb_arr( $option, "Third parties", $options, "third-parties", $len, 5 );
-  bw_textarea_cb_arr( $option, "Data Protection Act 1998", $options, "data-protection", $len, 2 );
-  bw_textarea_cb_arr( $option, "Small fee", $options, "data-protection-fee", $len, 1 );
-  bw_textarea_cb_arr( $option, "Write to", $options, "data-protection-addr", $len, 2 );
-  bw_textarea_cb_arr( $option, "Correction", $options, "data-correction", $len, 3 );
-  
-  //bw_tablerow( array( "", "<input type=\"submit\" name=\"ok\" value=\"Preview\" class=\"button-primary\"/>" ) ); 
-  
+  BW_::bw_textarea_cb_arr( $option, __( "Third parties", "oik-privacy-policy" ) , $options, "third-parties", $len, 5 );
+  BW_::bw_textarea_cb_arr( $option, __( "Data Protection Act 1998", "oik-privacy-policy" ) , $options, "data-protection", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Small fee", "oik-privacy-policy" ) , $options, "data-protection-fee", $len, 1 );
+  BW_::bw_textarea_cb_arr( $option, __( "Write to", "oik-privacy-policy" ) , $options, "data-protection-addr", $len, 2 );
+  BW_::bw_textarea_cb_arr( $option, __( "Correction", "oik-privacy-policy" ) , $options, "data-correction", $len, 3 );
   etag( "table" ); 
   e( isubmit( "ok", __("Preview", "oik-privacy-policy" ), null, "button-primary" ) ); 
   etag( "form" );
@@ -218,27 +218,6 @@ function oik_privacy_policy_reset_form() {
 }
 
 /**
- * 
- */
-function oik_privacy_policy_select_menu() { 
-  oik_require( "bw_metadata.inc" );
-  $menus = wp_get_nav_menus( $args = array() );
-  $terms = bw_term_array( $menus );
-  $terms[0] = "none";
-  
-  $auto_add = get_option( 'nav_menu_options' );
-  $auto_add = bw_array_get( $auto_add, "auto_add", 0 );
-  $auto_add = bw_array_get( $auto_add, 0, 0 );
-  
-  if ( $auto_add ) {
-    bw_tablerow( array("&nbsp;", "The new page will be added to menu: " . $terms[$auto_add] ) );
-  } else { 
-    bw_select( "bw_nav_menu", __( "Add to menu", "oik-privacy-policy" ), $auto_add, array( '#options' => $terms) );
-  }
-  return( $menus );
-}
-
-/**
  * Generate the privacy policy page
  */ 
 function oik_privacy_policy_generate_page() {
@@ -246,7 +225,7 @@ function oik_privacy_policy_generate_page() {
   oik_build_privacy_policy();
   $page = bw_ret();
   if ( $page ) {
-    $title = bw_array_get( $_REQUEST, "bw_privacy_policy_title", "Privacy policy" ); 
+    $title = bw_array_get( $_REQUEST, "bw_privacy_policy_title", __( "Privacy policy", "oik-privacy-policy" ) ); 
     $page_id = _bw_create_page( $title, "page", $page );
     
     $menu = bw_array_get( $_REQUEST, "bw_nav_menu", null );    
@@ -256,14 +235,14 @@ function oik_privacy_policy_generate_page() {
     }
     sdiv( "updated", "message" );
     sp();
-    bwt( "Page created:" );
+    e( __( "Page created:", "oik-privacy-policy" ) );
     e( "&nbsp;" . $title . "&nbsp;" );
-    alink( null, get_permalink( $page_id ), __( "View page" ) );
+    BW_::alink( null, get_permalink( $page_id ), __( "View page", "oik-privacy-policy" ) );
     ep();
     ediv();
   } else {
     sdiv( "error", "message" ); 
-    p( "Please select some checkboxes and <b>Preview</b> the result before choosing <b>Generate page</b>" );
+    BW_::p( __( "Please select some checkboxes and <b>Preview</b> the result before choosing <b>Generate page</b>", "oik-privacy-policy" ) );
     ediv();
   }
 }
@@ -274,11 +253,10 @@ function oik_privacy_policy_generate_page() {
 function oik_privacy_policy_generate() {
   e( '<form method="post" action="" class="inline">' ); 
   stag( 'table class="form-table"' );
-  bw_textfield( "bw_privacy_policy_title", 30, "Page title", __( "Privacy policy", 'oik-privacy-policy') );
+  BW_::bw_textfield( "bw_privacy_policy_title", 30, __( "Page title", "oik-privacy-policy" ), __( "Privacy policy", 'oik-privacy-policy') );
   oik_privacy_policy_menu_selector();
-  //bw_tablerow( array( "", "<input type=\"submit\" name=\"_bw_privacy_policy_generate\" value=\"Generate page\" class=\"button-primary\"/>") ); 
   etag( "table" );
-  e( isubmit( "_bw_privacy_policy_generate", __("Generate page", "oik-privacy-policy" ), null, "button-primary" ) ); 
+  e( isubmit( "_bw_privacy_policy_generate", __( "Generate page", "oik-privacy-policy" ), null, "button-primary" ) ); 
   etag( "form" );
 }
 
@@ -301,26 +279,24 @@ function _bw_create_page( $page, $post_type="page", $content=null ) {
 }  
 
 /**
- * 
+ * Displays the box allowing the user to choose the menu in which the page is created. 
  */
 function oik_privacy_policy_menu_selector() {
   oik_require( "bw_metadata.inc" );
   $menus = wp_get_nav_menus( $args = array() );
   $terms = bw_term_array( $menus );
-  $terms[0] = __( "none" );
+  $terms[0] = __( "none", "oik-privacy-policy" );
   
   $auto_add = get_option( 'nav_menu_options' );
   $auto_add = bw_array_get( $auto_add, "auto_add", 0 );
   $auto_add = bw_array_get( $auto_add, 0, 0 );
   
   if ( $auto_add ) {
-    bw_tablerow( array("&nbsp;", __( "The new page will be added to menu: ", 'oik-privacy-policy' ) . $terms[$auto_add] ) );
+    bw_tablerow( array("&nbsp;", "The new page will be added to menu: " . $terms[$auto_add] ) );
   } else { 
-    bw_select( "bw_nav_menu", "Add to menu", $auto_add, array( '#options' => $terms) );
+    BW_::bw_select( "bw_nav_menu", "Add to menu", $auto_add, array( '#options' => $terms) );
   }
   return( $menus );
 }
-
-
 
 
