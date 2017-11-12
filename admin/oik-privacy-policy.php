@@ -38,7 +38,7 @@ function oik_privacy_policy_inactive( $plugin=null, $dependencies=null ) {
 function oik_privacy_policy_lazy_admin_menu() {
   register_setting( 'oik_privacy_policy_options', 'bw_privacy_policy', 'oik_privacy_policy_options_validate' ); 
   //add_submenu_page( $parent slug, $page_title, $menu_title, $capability, $menu_slug, $function ); 
-  add_submenu_page( 'oik_menu', 'privacy policy setup', __( "privacy policy", 'oik-privacy-policy' ), 'manage_options', 'oik_privacy_policy', "oik_privacy_policy_options_do_page" );
+  add_submenu_page( 'oik_menu', __( 'privacy policy setup', 'oik-privacy-policy' ), __( "privacy policy", 'oik-privacy-policy' ), 'manage_options', 'oik_privacy_policy', "oik_privacy_policy_options_do_page" );
 }
 
 /**

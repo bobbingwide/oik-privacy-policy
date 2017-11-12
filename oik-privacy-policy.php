@@ -4,7 +4,7 @@ Plugin Name: oik-privacy-policy
 Depends: oik base plugin
 Plugin URI: https://www.oik-plugins.com/oik-plugins/oik-privacy-policy
 Description: Generate a privacy policy page, compliant with UK cookie law (EU cookie directive) for use on your website
-Version: 1.3.3
+Version: 1.4.0
 Author: bobbingwide
 Author URI: https://www.oik-plugins.com/author/bobbingwide
 Text Domain: oik-privacy-policy
@@ -41,9 +41,14 @@ function oik_privacy_policy_admin_menu() {
 /**
  * oik-privacy-policy plugin dependency logic
  *
- * This code will produce a message when oik-privacy_policy is activated but oik isn't 
- * v1.3.1 dependent upon oik v2.5 or higher. 
- * Note: oik v2.5 was the latest in April 2015.
+ * This code will produce a message when oik-privacy_policy is activated but oik isn't.
+ * 
+ * Version     | oik version dependency
+ * --------    | ----------------------
+ * 1.2         | 1.13
+ * 1.3         | 2.2
+ * 1.3.1-1.3.3 | 2.5 or higher. Note: oik v2.5 was the latest in April 2015.
+ * 1.4.0       | 3.2.0-RC1
  *
  */ 
 function oik_privacy_policy_activation() {
@@ -55,7 +60,7 @@ function oik_privacy_policy_activation() {
       require_once( "admin/oik-activation.php" );
     }
   }  
-  $depends = "oik:2.5";
+  $depends = "oik:3.2.0-RC1";
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
 
