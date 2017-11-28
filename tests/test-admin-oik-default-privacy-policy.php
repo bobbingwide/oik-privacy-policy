@@ -4,7 +4,7 @@
 /**
  * @package oik-privacy-policy
  * 
- * Test the functions in admin/oik-default-privacy-policy.inc
+ * Test the functions in admin/oik-default-privacy-policy.php
  */
 class Tests_admin_oik_default_privacy_policy_inc extends BW_UnitTestCase {
 
@@ -12,7 +12,7 @@ class Tests_admin_oik_default_privacy_policy_inc extends BW_UnitTestCase {
 	 */
 	function setUp() {
 		parent::setUp();
-		oik_require( "admin/oik-default-privacy-policy.inc", "oik-privacy-policy" );
+		oik_require( "admin/oik-default-privacy-policy.php", "oik-privacy-policy" );
 	}
 	
 	function test_oik_default_privacy_policy() {

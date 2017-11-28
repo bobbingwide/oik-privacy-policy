@@ -101,7 +101,7 @@ function oik_privacy_policy_options() {
   
   $option = "bw_privacy_policy"; 
   $options = bw_form_start( $option, "oik_privacy_policy_options" );
-  oik_require( "admin/oik-default-privacy-policy.inc", "oik-privacy-policy" );
+  oik_require( "admin/oik-default-privacy-policy.php", "oik-privacy-policy" );
   $options = bw_reset_options( $option, $options, "oik_default_privacy_policy", "_bw_privacy_policy_reset" ); 
   bw_trace2( $options );
   
@@ -230,7 +230,7 @@ function oik_privacy_policy_generate_page() {
     
     $menu = bw_array_get( $_REQUEST, "bw_nav_menu", null );    
     if ( $menu > 0 ) {
-       oik_require( "includes/oik-menus.inc" );
+       oik_require( "includes/oik-menus.php" );
        bw_insert_menu_item( $title, $menu, $page_id, 0 );
     }
     sdiv( "updated", "message" );
@@ -282,7 +282,7 @@ function _bw_create_page( $page, $post_type="page", $content=null ) {
  * Displays the box allowing the user to choose the menu in which the page is created. 
  */
 function oik_privacy_policy_menu_selector() {
-  oik_require( "bw_metadata.inc" );
+  oik_require( "includes/bw_metadata.php" );
   $menus = wp_get_nav_menus( $args = array() );
   $terms = bw_term_array( $menus );
   $terms[0] = __( "none", "oik-privacy-policy" );

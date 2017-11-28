@@ -127,10 +127,75 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 		return $html;
 	}
 	
-	// How can we mess up wp_get_nav_menus? 
-	// Need to set nav_menu_options so that $auto_add is true then false
-	// 
+	/**
+	 * Tests oik_privacy_policy_menu_selector
+	 * 
+	 * - Set auto_add to false to produce the selection list of menus
+	 * - use __return_empty_array to produce an empty array of menus
+	 */
+	function test_oik_privacy_policy_menu_selector() {
+		$this->switch_to_locale( 'en_GB' );
+		$options = get_option( 'nav_menu_options' );
+		
+		$options['auto_add'] = 0;
+		update_option( 'nav_menu_options', $options );
+		add_filter( "wp_get_nav_menus", "__return_empty_array" );
+		
+		$menus = oik_privacy_policy_menu_selector();
+		remove_filter( "wp_get_nav_menus", "__return_empty_array" );
+		
+    $html = bw_ret();
+		$this->assertNotNull( $html );
+		$html_array = $this->tag_break( $html );
+		
+		//$this->generate_expected_file( $html_array );
+		
+		$this->assertArrayEqualsFile( $html_array );
+		$this->switch_to_locale( 'en_GB' );
+	}
 	
+	/**
+	 * Tests oik_privacy_policy_menu_selector with auto_add set
+	 *
+  //if ( $auto_add ) {
+  //  bw_tablerow( array("&nbsp;", "The new page will be added to menu: " . $terms[$auto_add] ) );
+  //} else { 
+  //  BW_::bw_select( "bw_nav_menu", "Add to menu", $auto_add, array( '#options' => $terms) );
+	 */
+	function test_oik_privacy_policy_menu_selector_auto_add() {
+		$this->switch_to_locale( 'en_GB' );
+		
+		add_filter( "wp_get_nav_menus", array( $this, "__return_just_one" ), 10, 2 );
+		$menus = wp_get_nav_menus( $args = array() );
+		
+		$options = get_option( 'nav_menu_options' );
+		$options['auto_add'] = 0;
+		$options['auto_add'] = array( $menus[0] ->term_id ); 
+		update_option( 'nav_menu_options', $options );
+		
+		$menus = oik_privacy_policy_menu_selector();
+		remove_filter( "wp_get_nav_menus", array( $this, "__return_just_one" ), 10, 2 );
+		
+    $html = bw_ret();
+		$this->assertNotNull( $html );
+		$html_array = $this->tag_break( $html );
+		
+		//$this->generate_expected_file( $html_array );
+		
+		$this->assertArrayEqualsFile( $html_array );
+		$this->switch_to_locale( 'en_GB' );
+  
+	}
+	
+	/**
+	 * Returns just one menu item forcing a name of "just_one"
+	 */
+	function __return_just_one( $terms, $args ) {
+		$menu_item = array_shift( $terms );
+		$menu_item->name = "just_one";
+		$term[] = $menu_item;
+		return $term;
+	}
 	
 	
 	
