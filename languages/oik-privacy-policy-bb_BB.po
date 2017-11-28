@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oik-privacy-policy 1.4.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2017-11-12 10:05:59+00:00\n"
+"POT-Creation-Date: 2017-11-28 17:12:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: bb_BB\n"
@@ -40,7 +40,7 @@ msgstr ""
 "Pelsae isnatll And atcvitae thE rqeiuerd mnimium vreison Of tihs pulign:"
 
 
-#: admin/oik-default-privacy-policy.inc:16
+#: admin/oik-default-privacy-policy.php:16
 msgid ""
 "<p>This privacy policy sets out how [bw_company] uses and protects any "
 "information that you give [bw_company] when you use this website.</p>"
@@ -49,7 +49,7 @@ msgstr ""
 "ifnroamiton taht yOU gvie [bw_company] wehn yOU UsE tihs website.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:17
+#: admin/oik-default-privacy-policy.php:17
 msgid ""
 "<p>[bw_company] is committed to ensuring that your privacy is protected. "
 "Should we ask you to provide certain information by which you can be "
@@ -62,7 +62,7 @@ msgstr ""
 "olny bE uesd In accroadcne wtih tihs piravcy statement.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:18
+#: admin/oik-default-privacy-policy.php:18
 msgid ""
 "<p>[bw_company] may change this policy from time to time by updating this "
 "page. You should check this page from time to time to ensure that you are "
@@ -73,69 +73,69 @@ msgstr ""
 "hpapy wtih Any cahgnes."
 
 
-#: admin/oik-default-privacy-policy.inc:19
+#: admin/oik-default-privacy-policy.php:19
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
 
-#: admin/oik-default-privacy-policy.inc:21
+#: admin/oik-default-privacy-policy.php:21
 msgid "This policy is effective from:&nbsp;"
 msgstr "Tihs plociy Is effceitve from:&nbsp;"
 
 
-#: admin/oik-default-privacy-policy.inc:24
+#: admin/oik-default-privacy-policy.php:24
 msgid "<h3>What we collect</h3>"
 msgstr "<h3>What wE collect</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:25
+#: admin/oik-default-privacy-policy.php:25
 msgid "<p>We may collect the following information:</p>"
 msgstr "<p>We mAy cloelct thE flooliwng information:</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:26
-#: admin/oik-default-privacy-policy.inc:35
-#: admin/oik-default-privacy-policy.inc:127
+#: admin/oik-default-privacy-policy.php:26
+#: admin/oik-default-privacy-policy.php:35
+#: admin/oik-default-privacy-policy.php:127
 msgid "<ul>"
 msgstr "<ul>"
 
 
-#: admin/oik-default-privacy-policy.inc:27
+#: admin/oik-default-privacy-policy.php:27
 msgid "<li>name and job title</li>"
 msgstr "<li>name And jOb title</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:28
+#: admin/oik-default-privacy-policy.php:28
 msgid "<li>contact information including email address</li>"
 msgstr "<li>contact ifnroamiton icnulidng eamil address</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:29
+#: admin/oik-default-privacy-policy.php:29
 msgid ""
 "<li>demographic information such as postcode, preferences and interests</li>"
 msgstr ""
 "<li>demographic ifnroamiton scuh As psoctdoe, perefercnes And interests</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:30
+#: admin/oik-default-privacy-policy.php:30
 msgid "<li>other information relevant to customer surveys and/or offers</li>"
 msgstr "<li>other ifnroamiton rlevenat tO csuotemr sruevys And/Or offers</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:31
-#: admin/oik-default-privacy-policy.inc:40
-#: admin/oik-default-privacy-policy.inc:93
-#: admin/oik-default-privacy-policy.inc:131
+#: admin/oik-default-privacy-policy.php:31
+#: admin/oik-default-privacy-policy.php:40
+#: admin/oik-default-privacy-policy.php:93
+#: admin/oik-default-privacy-policy.php:131
 msgid "</ul>"
 msgstr "</ul>"
 
 
-#: admin/oik-default-privacy-policy.inc:33
+#: admin/oik-default-privacy-policy.php:33
 msgid "<h3>What we do with the information we gather</h3>"
 msgstr "<h3>What wE dO wtih thE ifnroamiton wE gather</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:34
+#: admin/oik-default-privacy-policy.php:34
 msgid ""
 "<p>We require this information to understand your needs and provide you with "
 "a better service, and in particular for the following reasons:</p>"
@@ -144,19 +144,19 @@ msgstr ""
 "A bteetr sreivce, And In praitucalr fOr thE flooliwng reasons:</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:36
+#: admin/oik-default-privacy-policy.php:36
 msgid "<li>Internal record keeping.</li>"
 msgstr "<li>Internal rcerod keeping.</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:37
+#: admin/oik-default-privacy-policy.php:37
 msgid ""
 "<li>We may use the information to improve our products and services</li>"
 msgstr ""
 "<li>We mAy UsE thE ifnroamiton tO ipmorve OUr porudtcs And services</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:38
+#: admin/oik-default-privacy-policy.php:38
 msgid ""
 "<li>We may periodically send promotional emails about new products, special "
 "offers or other information which we think you may find interesting using "
@@ -167,7 +167,7 @@ msgstr ""
 "thE eamil adderss wihch yOU hvae provided.</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:39
+#: admin/oik-default-privacy-policy.php:39
 msgid ""
 "<li>From time to time, we may also use your information to contact you for "
 "market research purposes. We may contact you by email, phone, fax or mail. "
@@ -180,12 +180,12 @@ msgstr ""
 "interests.</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:42
+#: admin/oik-default-privacy-policy.php:42
 msgid "<h3>Security</h3>"
 msgstr "<h3>Security</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:43
+#: admin/oik-default-privacy-policy.php:43
 msgid ""
 "<p>We are committed to ensuring that your information is secure. In order to "
 "prevent unauthorised access or disclosure, we have put in place suitable "
@@ -198,12 +198,12 @@ msgstr ""
 "ifnroamiton wE cloelct online.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:82
+#: admin/oik-default-privacy-policy.php:82
 msgid "<h3>What is a cookie?</h3>"
 msgstr "<h3>What Is A cookie?</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:83
+#: admin/oik-default-privacy-policy.php:83
 msgid ""
 "<p>Cookies are text files containing small amounts of information which are "
 "downloaded to your device when you visit a website. "
@@ -212,7 +212,7 @@ msgstr ""
 "dwolnaoedd tO yuor dvecie wehn yOU vsiit A wbeiste. "
 
 
-#: admin/oik-default-privacy-policy.inc:84
+#: admin/oik-default-privacy-policy.php:84
 msgid ""
 "Cookies are then sent back to the originating website on each subsequent "
 "visit, or to another website that recognises that cookie. "
@@ -221,7 +221,7 @@ msgstr ""
 "vsiit, Or tO aonhter wbeiste taht rcegoiness taht cooike. "
 
 
-#: admin/oik-default-privacy-policy.inc:85
+#: admin/oik-default-privacy-policy.php:85
 msgid ""
 "Cookies are useful because they allow a website to recognise a user's "
 "device. "
@@ -230,17 +230,17 @@ msgstr ""
 "dvecie. "
 
 
-#: admin/oik-default-privacy-policy.inc:86
+#: admin/oik-default-privacy-policy.php:86
 msgid "</p>"
 msgstr "</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:88
+#: admin/oik-default-privacy-policy.php:88
 msgid "<p>You can find more information about cookies at:</p><ul>"
 msgstr "<p>You cAn fnid mroe ifnroamiton aobut cooikes at:</p><ul>"
 
 
-#: admin/oik-default-privacy-policy.inc:90
+#: admin/oik-default-privacy-policy.php:90
 msgid ""
 "<li><a href=\"http://www.allaboutcookies.org\">www.allaboutcookies.org</a></"
 "li>"
@@ -249,7 +249,7 @@ msgstr ""
 "li>"
 
 
-#: admin/oik-default-privacy-policy.inc:91
+#: admin/oik-default-privacy-policy.php:91
 msgid ""
 "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.eu</"
 "a></li>"
@@ -258,7 +258,7 @@ msgstr ""
 "a></li>"
 
 
-#: admin/oik-default-privacy-policy.inc:92
+#: admin/oik-default-privacy-policy.php:92
 msgid ""
 "<li>For a video about cookies visit <a href=\"https://www.google.com/"
 "policies/technologies/cookies/\">how Google uses cookies</a></li>"
@@ -267,7 +267,7 @@ msgstr ""
 "policies/technologies/cookies/\">how Goolge uess cookies</a></li>"
 
 
-#: admin/oik-default-privacy-policy.inc:95
+#: admin/oik-default-privacy-policy.php:95
 msgid ""
 "Cookies do lots of different jobs, like letting you navigate between pages "
 "efficiently, remembering your preferences, and generally improve the user "
@@ -278,7 +278,7 @@ msgstr ""
 "epxreeicne. "
 
 
-#: admin/oik-default-privacy-policy.inc:96
+#: admin/oik-default-privacy-policy.php:96
 msgid ""
 "They can also help to ensure that adverts you see online are more relevant "
 "to you and your interests. "
@@ -287,7 +287,7 @@ msgstr ""
 "tO yOU And yuor itnresets. "
 
 
-#: admin/oik-default-privacy-policy.inc:97
+#: admin/oik-default-privacy-policy.php:97
 msgid ""
 "The cookies used on this website have been categorised based on the "
 "categories found in the ICC UK Cookie guide. "
@@ -296,12 +296,12 @@ msgstr ""
 "ctageroeis fuond In thE ICC UK Cooike giude. "
 
 
-#: admin/oik-default-privacy-policy.inc:99
+#: admin/oik-default-privacy-policy.php:99
 msgid "<h3>Category 1: strictly necessary cookies</h3>"
 msgstr "<h3>Category 1: srtcilty nceseasry cookies</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:100
+#: admin/oik-default-privacy-policy.php:100
 msgid ""
 "<p>These cookies are essential in order to enable you to move around the "
 "website and use its features, such as accessing secure areas of the website. "
@@ -314,12 +314,12 @@ msgstr ""
 "E-bliilng, cnaont bE provided.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:102
+#: admin/oik-default-privacy-policy.php:102
 msgid "<h3>Category 2: performance cookies</h3>"
 msgstr "<h3>Category 2: preofmrnace cookies</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:103
+#: admin/oik-default-privacy-policy.php:103
 msgid ""
 "<p>These cookies collect information about how visitors use a website, for "
 "instance which pages visitors go to most often, and if they get error "
@@ -334,8 +334,8 @@ msgstr ""
 "And teherofre aonynomus. It Is olny uesd tO ipmorve hOw A wbeiste works.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:105
-#: admin/oik-default-privacy-policy.inc:110
+#: admin/oik-default-privacy-policy.php:105
+#: admin/oik-default-privacy-policy.php:110
 msgid ""
 "<p>By using our website, you agree that we can place these type of cookies "
 "on your device.</p>"
@@ -344,12 +344,12 @@ msgstr ""
 "On yuor device.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:107
+#: admin/oik-default-privacy-policy.php:107
 msgid "<h3>Category 3: functionality cookies</h3>"
 msgstr "<h3>Category 3: fnutcoianilty cookies</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:108
+#: admin/oik-default-privacy-policy.php:108
 msgid ""
 "<p>These cookies allow the website to remember choices you make (such as "
 "your user name, language or the region you are in) and provide enhanced, "
@@ -374,12 +374,12 @@ msgstr ""
 "yuor borswnig atcvitiy On ohter websites.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:112
+#: admin/oik-default-privacy-policy.php:112
 msgid "<h3>Category 4: targeting cookies or advertising cookies</h3>"
 msgstr "<h3>Category 4: traegitng cooikes Or avdreitisng cookies</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:113
+#: admin/oik-default-privacy-policy.php:113
 msgid ""
 "<p>These cookies are used to deliver adverts more relevant to you and your "
 "interests They are also used to limit the number of times you see an "
@@ -400,24 +400,24 @@ msgstr ""
 "fnutcoianilty porivedd by thE ohter organizations.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:115
+#: admin/oik-default-privacy-policy.php:115
 msgid ""
 "A list of all the cookies used on this website by category is set out below."
 msgstr ""
 "A lsit Of All thE cooikes uesd On tihs wbeiste by ctageroy Is sEt OUt bleow."
 
 
-#: admin/oik-default-privacy-policy.inc:120
+#: admin/oik-default-privacy-policy.php:120
 msgid "<h3>Links to other websites</h3>"
 msgstr "<h3>Links tO ohter websites</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:121
+#: admin/oik-default-privacy-policy.php:121
 msgid "<p>Our website may contain links to other websites of interest. "
 msgstr "<p>Our wbeiste mAy cnoatin lniks tO ohter wbeisets Of itnreset. "
 
 
-#: admin/oik-default-privacy-policy.inc:122
+#: admin/oik-default-privacy-policy.php:122
 msgid ""
 "However, once you have used these links to leave our site, you should note "
 "that we do not have any control over that other website. "
@@ -426,7 +426,7 @@ msgstr ""
 "taht wE dO nOt hvae Any cnortol oevr taht ohter wbeiste. "
 
 
-#: admin/oik-default-privacy-policy.inc:123
+#: admin/oik-default-privacy-policy.php:123
 msgid ""
 "Therefore, we cannot be responsible for the protection and privacy of any "
 "information which you provide whilst visiting such sites and such sites are "
@@ -437,7 +437,7 @@ msgstr ""
 "nOt gvoreend by tihs piravcy satetemnt. "
 
 
-#: admin/oik-default-privacy-policy.inc:124
+#: admin/oik-default-privacy-policy.php:124
 msgid ""
 "You should exercise caution and look at the privacy statement applicable to "
 "the website in question.</p>"
@@ -446,12 +446,12 @@ msgstr ""
 "thE wbeiste In question.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:125
+#: admin/oik-default-privacy-policy.php:125
 msgid "<h3>Controlling your personal information</h3>"
 msgstr "<h3>Controlling yuor preosanl information</h3>"
 
 
-#: admin/oik-default-privacy-policy.inc:126
+#: admin/oik-default-privacy-policy.php:126
 msgid ""
 "<p>You may choose to restrict the collection or use of your personal "
 "information in the following ways:</p>"
@@ -460,7 +460,7 @@ msgstr ""
 "ifnroamiton In thE flooliwng ways:</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:129
+#: admin/oik-default-privacy-policy.php:129
 msgid ""
 "<li>whenever you are asked to fill in a form on the website, look for the "
 "box that you can click to indicate that you do not want the information to "
@@ -471,7 +471,7 @@ msgstr ""
 "bE uesd by aynobdy fOr dricet mraekitng purposes</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:130
+#: admin/oik-default-privacy-policy.php:130
 msgid ""
 "<li>if you have previously agreed to us using your personal information for "
 "direct marketing purposes, you may change your mind at any time by writing "
@@ -482,7 +482,7 @@ msgstr ""
 "tO Or eamlinig Us At [bw_mailto]</li>"
 
 
-#: admin/oik-default-privacy-policy.inc:133
+#: admin/oik-default-privacy-policy.php:133
 msgid ""
 "<p>We will not sell, distribute or lease your personal information to third "
 "parties unless we have your permission or are required by law to do so. We "
@@ -497,7 +497,7 @@ msgstr ""
 "yOU wsih tihs tO happen.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:134
+#: admin/oik-default-privacy-policy.php:134
 msgid ""
 "<p>You may request details of personal information which we hold about you "
 "under the Data Protection Act 1998.</p>"
@@ -506,12 +506,12 @@ msgstr ""
 "udner thE Dtaa Porettcoin Act 1998.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:135
+#: admin/oik-default-privacy-policy.php:135
 msgid "<p>A small fee will be payable.</p>"
 msgstr "<p>A samll fEE wlil bE payable.</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:136
+#: admin/oik-default-privacy-policy.php:136
 msgid ""
 "If you would like a copy of the information held on you please write to: "
 "[bw_address]</p>"
@@ -520,7 +520,7 @@ msgstr ""
 "[bw_address]</p>"
 
 
-#: admin/oik-default-privacy-policy.inc:137
+#: admin/oik-default-privacy-policy.php:137
 msgid ""
 "<p>If you believe that any information we are holding on you is incorrect or "
 "incomplete, please write to or email us as soon as possible at the above "
@@ -541,7 +541,8 @@ msgid "privacy policy"
 msgstr "piravcy plociy"
 
 
-#: admin/oik-privacy-policy.php:86 admin/oik-privacy-policy.php:277
+#: admin/oik-privacy-policy.php:86 admin/oik-privacy-policy.php:228
+#: admin/oik-privacy-policy.php:256
 msgid "Privacy policy"
 msgstr "Piravcy plociy"
 
@@ -556,200 +557,200 @@ msgid "Generate"
 msgstr "Gneretae"
 
 
-#: admin/oik-privacy-policy.php:96
+#: admin/oik-privacy-policy.php:99
 msgid ""
 "Choose the content for your privacy policy, change the text as required."
 msgstr ""
 "Cohsoe thE cnoetnt fOr yuor piravcy plociy, cahgne thE txet As rqeiuerd."
 
 
-#: admin/oik-privacy-policy.php:97
+#: admin/oik-privacy-policy.php:100
 msgid "Click on <b>Preview</b> to see how the privacy policy will appear."
 msgstr "Cilck On <b>Preview</b> tO sEE hOw thE piravcy plociy wlil appaer."
 
 
-#: admin/oik-privacy-policy.php:107
+#: admin/oik-privacy-policy.php:110
 msgid "Introduction"
 msgstr "Itnorudtcoin"
 
 
-#: admin/oik-privacy-policy.php:108
+#: admin/oik-privacy-policy.php:111
 msgid "Effective from"
 msgstr "Effceitve form"
 
 
-#: admin/oik-privacy-policy.php:110
+#: admin/oik-privacy-policy.php:113
 msgid "We collect"
 msgstr "WE cloelct"
 
 
-#: admin/oik-privacy-policy.php:111
+#: admin/oik-privacy-policy.php:114
 msgid ".. Name"
 msgstr ".. Nmae"
 
 
-#: admin/oik-privacy-policy.php:112
+#: admin/oik-privacy-policy.php:115
 msgid ".. Contact"
 msgstr ".. Cnoatct"
 
 
-#: admin/oik-privacy-policy.php:113
+#: admin/oik-privacy-policy.php:116
 msgid ".. Demographic"
 msgstr ".. Dmegoarhpic"
 
 
-#: admin/oik-privacy-policy.php:114
+#: admin/oik-privacy-policy.php:117
 msgid ".. Other"
 msgstr ".. Ohter"
 
 
-#: admin/oik-privacy-policy.php:115 admin/oik-privacy-policy.php:122
-#: admin/oik-privacy-policy.php:131 admin/oik-privacy-policy.php:153
+#: admin/oik-privacy-policy.php:118 admin/oik-privacy-policy.php:125
+#: admin/oik-privacy-policy.php:134 admin/oik-privacy-policy.php:156
 msgid "list end"
 msgstr "lsit End"
 
 
-#: admin/oik-privacy-policy.php:117
+#: admin/oik-privacy-policy.php:120
 msgid "We use it for"
 msgstr "WE UsE It fOr"
 
 
-#: admin/oik-privacy-policy.php:118
+#: admin/oik-privacy-policy.php:121
 msgid ".. Internally"
 msgstr ".. Itnreanlly"
 
 
-#: admin/oik-privacy-policy.php:119
+#: admin/oik-privacy-policy.php:122
 msgid ".. Improve"
 msgstr ".. Ipmorve"
 
 
-#: admin/oik-privacy-policy.php:120
+#: admin/oik-privacy-policy.php:123
 msgid ".. Emails"
 msgstr ".. Eamlis"
 
 
-#: admin/oik-privacy-policy.php:121
+#: admin/oik-privacy-policy.php:124
 msgid ".. Research"
 msgstr ".. Rseaecrh"
 
 
-#: admin/oik-privacy-policy.php:124
+#: admin/oik-privacy-policy.php:127
 msgid "Security"
 msgstr "Scerutiy"
 
 
-#: admin/oik-privacy-policy.php:126
+#: admin/oik-privacy-policy.php:129
 msgid "<b>Cookies</b>"
 msgstr "<b>Cookies</b>"
 
 
-#: admin/oik-privacy-policy.php:127
+#: admin/oik-privacy-policy.php:130
 msgid "Cookie info"
 msgstr "Cooike ifno"
 
 
-#: admin/oik-privacy-policy.php:128
+#: admin/oik-privacy-policy.php:131
 msgid ".. All about cookies"
 msgstr ".. All aobut cooikes"
 
 
-#: admin/oik-privacy-policy.php:129
+#: admin/oik-privacy-policy.php:132
 msgid ".. Online choices"
 msgstr ".. Olnnie cohcies"
 
 
-#: admin/oik-privacy-policy.php:130
+#: admin/oik-privacy-policy.php:133
 msgid ".. Google video"
 msgstr ".. Goolge vdieo"
 
 
-#: admin/oik-privacy-policy.php:132
+#: admin/oik-privacy-policy.php:135
 msgid "More info"
 msgstr "Mroe ifno"
 
 
-#: admin/oik-privacy-policy.php:133
+#: admin/oik-privacy-policy.php:136
 msgid "Relevant adverts"
 msgstr "Rlevenat avdrets"
 
 
-#: admin/oik-privacy-policy.php:134
+#: admin/oik-privacy-policy.php:137
 msgid "Categorised"
 msgstr "Ctagerosied"
 
 
-#: admin/oik-privacy-policy.php:135
+#: admin/oik-privacy-policy.php:138
 msgid "Category 1"
 msgstr "Ctageroy 1"
 
 
-#: admin/oik-privacy-policy.php:137
+#: admin/oik-privacy-policy.php:140
 msgid "Category 2"
 msgstr "Ctageroy 2"
 
 
-#: admin/oik-privacy-policy.php:138 admin/oik-privacy-policy.php:140
+#: admin/oik-privacy-policy.php:141 admin/oik-privacy-policy.php:143
 msgid "Consent"
 msgstr "Cnoesnt"
 
 
-#: admin/oik-privacy-policy.php:139
+#: admin/oik-privacy-policy.php:142
 msgid "Category 3"
 msgstr "Ctageroy 3"
 
 
-#: admin/oik-privacy-policy.php:141
+#: admin/oik-privacy-policy.php:144
 msgid "Category 4"
 msgstr "Ctageroy 4"
 
 
-#: admin/oik-privacy-policy.php:143
+#: admin/oik-privacy-policy.php:146
 msgid "Cookie list"
 msgstr "Cooike lsit"
 
 
-#: admin/oik-privacy-policy.php:149
+#: admin/oik-privacy-policy.php:152
 msgid "External links"
 msgstr "Etxreanl lniks"
 
 
-#: admin/oik-privacy-policy.php:150
+#: admin/oik-privacy-policy.php:153
 msgid "Personal information"
 msgstr "Preosanl ifnroamiton"
 
 
-#: admin/oik-privacy-policy.php:151
+#: admin/oik-privacy-policy.php:154
 msgid ".. Direct marketing"
 msgstr ".. Dricet mraekitng"
 
 
-#: admin/oik-privacy-policy.php:152
+#: admin/oik-privacy-policy.php:155
 msgid ".. Changes"
 msgstr ".. Cahgnes"
 
 
-#: admin/oik-privacy-policy.php:155
+#: admin/oik-privacy-policy.php:158
 msgid "Third parties"
 msgstr "Tihrd praites"
 
 
-#: admin/oik-privacy-policy.php:156
+#: admin/oik-privacy-policy.php:159
 msgid "Data Protection Act 1998"
 msgstr "Dtaa Porettcoin Act 1998"
 
 
-#: admin/oik-privacy-policy.php:157
+#: admin/oik-privacy-policy.php:160
 msgid "Small fee"
 msgstr "Samll fEE"
 
 
-#: admin/oik-privacy-policy.php:158
+#: admin/oik-privacy-policy.php:161
 msgid "Write to"
 msgstr "Wirte tO"
 
 
-#: admin/oik-privacy-policy.php:159
+#: admin/oik-privacy-policy.php:162
 msgid "Correction"
 msgstr "Croertcoin"
 
@@ -759,22 +760,17 @@ msgid "Reset to defaults"
 msgstr "Rseet tO dfeuatls"
 
 
-#: admin/oik-privacy-policy.php:236
-msgid "Add to menu"
-msgstr "Add tO mneu"
-
-
-#: admin/oik-privacy-policy.php:259
+#: admin/oik-privacy-policy.php:238
 msgid "Page created:"
 msgstr "Pgae certaed:"
 
 
-#: admin/oik-privacy-policy.php:261
+#: admin/oik-privacy-policy.php:240
 msgid "View page"
 msgstr "Veiw pgae"
 
 
-#: admin/oik-privacy-policy.php:266
+#: admin/oik-privacy-policy.php:245
 msgid ""
 "Please select some checkboxes and <b>Preview</b> the result before choosing "
 "<b>Generate page</b>"
@@ -783,19 +779,29 @@ msgstr ""
 "<b>Generate page</b>"
 
 
-#: admin/oik-privacy-policy.php:281
+#: admin/oik-privacy-policy.php:256
+msgid "Page title"
+msgstr "Pgae ttile"
+
+
+#: admin/oik-privacy-policy.php:259
 msgid "Generate page"
 msgstr "Gneretae pgae"
 
 
-#: admin/oik-privacy-policy.php:310
+#: admin/oik-privacy-policy.php:288
 msgid "none"
 msgstr "nnoe"
 
 
-#: admin/oik-privacy-policy.php:317
-msgid "The new page will be added to menu: "
-msgstr "ThE nEw pgae wlil bE added tO mneu: "
+#: admin/oik-privacy-policy.php:295
+msgid "The new page will be added to menu: %1$s"
+msgstr "ThE nEw pgae wlil bE added tO mneu: %1$s"
+
+
+#: admin/oik-privacy-policy.php:297
+msgid "Add to menu"
+msgstr "Add tO mneu"
 
 
 #. Plugin Name of the plugin/theme

@@ -292,9 +292,9 @@ function oik_privacy_policy_menu_selector() {
   $auto_add = bw_array_get( $auto_add, 0, 0 );
   
   if ( $auto_add ) {
-    bw_tablerow( array("&nbsp;", "The new page will be added to menu: " . $terms[$auto_add] ) );
+    bw_tablerow( array( "&nbsp;", sprintf( __( 'The new page will be added to menu: %1$s', "oik-privacy-policy" ), $terms[$auto_add] ) ) );
   } else { 
-    BW_::bw_select( "bw_nav_menu", "Add to menu", $auto_add, array( '#options' => $terms) );
+    BW_::bw_select( "bw_nav_menu", __( "Add to menu", "oik-privacy-policy" ), $auto_add, array( '#options' => $terms) );
   }
   return( $menus );
 }
