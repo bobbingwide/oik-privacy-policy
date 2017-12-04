@@ -112,7 +112,7 @@ function oik_default_privacy_policy() {
   $text['cookie-cat-4'] = __( "<h3>Category 4: targeting cookies or advertising cookies</h3>", 'oik-privacy-policy' );
   $text['cookie-cat-4'] .= __( "<p>These cookies are used to deliver adverts more relevant to you and your interests They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>", 'oik-privacy-policy' ); 
   
-  $text['cookie-list'] = __( "A list of all the cookies used on this website by category is set out below.", 'oik-privacy-policy' );
+  $text['cookie-list'] = __( "<p>A list of all the cookies used on this website by category is set out below.</p>", 'oik-privacy-policy' );
   // **?** TODO - determine the best way to list cookies
   // Apparently the cookie info needs to include: Cookie Name, Cookie Length (seconds) & Description.
   
@@ -133,7 +133,7 @@ function oik_default_privacy_policy() {
   $text['third-parties'] = __( "<p>We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>", 'oik-privacy-policy' );
   $text['data-protection'] = __( "<p>You may request details of personal information which we hold about you under the Data Protection Act 1998.</p>", 'oik-privacy-policy' ); 
   $text['data-protection-fee'] = __( "<p>A small fee will be payable.</p>", 'oik-privacy-policy' ); 
-  $text['data-protection-addr'] = __( "If you would like a copy of the information held on you please write to: [bw_address]</p>", 'oik-privacy-policy' );
+  $text['data-protection-addr'] = __( "<p>If you would like a copy of the information held on you please write to:</p>[bw_address]", 'oik-privacy-policy' );
   $text['data-correction'] = __( "<p>If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible at the above address. We will promptly correct any information found to be incorrect.</p>", 'oik-privacy-policy' );
 
   return( $text );

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oik-privacy-policy 1.4.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2017-11-28 17:12:26+00:00\n"
+"POT-Creation-Date: 2017-11-28 17:35:12+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
@@ -282,8 +282,9 @@ msgstr "<p>These cookies are used to deliver adverts more relevant to you and yo
 
 #: admin/oik-default-privacy-policy.php:115
 msgid ""
-"A list of all the cookies used on this website by category is set out below."
-msgstr "A list of all the cookies used on this website by category is set out below."
+"<p>A list of all the cookies used on this website by category is set out "
+"below.</p>"
+msgstr "<p>A list of all the cookies used on this website by category is set out below.</p>"
 
 #: admin/oik-default-privacy-policy.php:120
 msgid "<h3>Links to other websites</h3>"
@@ -357,9 +358,9 @@ msgstr "<p>A small fee will be payable.</p>"
 
 #: admin/oik-default-privacy-policy.php:136
 msgid ""
-"If you would like a copy of the information held on you please write to: "
-"[bw_address]</p>"
-msgstr "If you would like a copy of the information held on you please write to: [bw_address]</p>"
+"<p>If you would like a copy of the information held on you please write to:</"
+"p>[bw_address]"
+msgstr "<p>If you would like a copy of the information held on you please write to:</p>[bw_address]"
 
 #: admin/oik-default-privacy-policy.php:137
 msgid ""

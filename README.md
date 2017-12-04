@@ -3,9 +3,9 @@
 * Contributors: bobbingwide, vsgloik
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
-* Requires at least: 3.9
-* Tested up to: 4.7.3
-* Stable tag: 1.3.3
+* Requires at least: 4.8
+* Tested up to: 4.9.1
+* Stable tag: 1.4.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -116,28 +116,38 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
+# 1.4.0 
+Translation ready. Tested with WordPress 4.9.1 and WordPress Multisite. Please upgrade oik to v3.2.2.
+
 # 1.3.3 
-* Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1
+Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1
 
 # 1.3.2 
-* Tested with WordPress 4.6.
+Tested with WordPress 4.6.
 
 # 1.3.1 
-* Tested with WordPress 4.4. Now dependent upon oik v2.5 or higher.
+Tested with WordPress 4.4. Now dependent upon oik v2.5 or higher.
 
 # 1.3 
-* Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
+Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
 
 # 1.2 
-* Now dependent upon oik base plugin v2.1 or higher for a localized version
+Now dependent upon oik base plugin v2.1 or higher for a localized version
 
 # 1.1 
-* Depends upon oik version 1.17 or higher.
+Depends upon oik version 1.17 or higher.
 
 # 1.0 
-* Depends upon oik version 1.13 or higher.
+Depends upon oik version 1.13 or higher.
 
 ## Changelog 
+# 1.4.0 
+* Changed: 100% translatable and localizable on WordPress.org https://github.com/bobbingwide/oik-privacy-policy/issues/2
+* Changed: Dependent upon oik v3.2.2 https://github.com/bobbingwide/oik-privacy-policy/issues/2
+* Fixed: W3C validator produces warnings about unmatched p end tags https://github.com/bobbingwide/oik-privacy-policy/issues/3
+* Tested: With PHP 7.0 and 7.1
+* Tested: With WordPress 4.9.1 and WordPress Multisite
+
 # 1.3.3 
 * Tested: With WordPress 4.7.3 and WordPress Multisite
 * Tested: With PHP 7.1
@@ -172,7 +182,7 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 
 ## Further reading 
 If you want to read more about the oik plugins then please visit the
-[oik plugin](http://www.oik-plugins.com/oik)
+[oik plugin](https://www.oik-plugins.com/oik)
 **"the oik plugin - for often included key-information"**
 
 

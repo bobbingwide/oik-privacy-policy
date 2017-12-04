@@ -19,6 +19,7 @@ class Tests_admin_oik_default_privacy_policy_inc extends BW_UnitTestCase {
 		$this->switch_to_locale( "en_GB" );
 		$array = oik_default_privacy_policy();
 		$html = $this->arraytohtml( $array );
+    $html = str_replace( bw_format_date( null, "F Y"), "Month CCYY", $html );
 		//$this->generate_expected_file( $html );
 		$this->assertArrayEqualsFile( $html );
 		
@@ -28,6 +29,7 @@ class Tests_admin_oik_default_privacy_policy_inc extends BW_UnitTestCase {
 		$this->switch_to_locale( "bb_BB" );
 		$array = oik_default_privacy_policy();
 		$html = $this->arraytohtml( $array );
+		$html = str_replace( bw_format_date( null, "F Y"), "Month CCYY", $html );
 		//$this->generate_expected_file( $html );
 		$this->assertArrayEqualsFile( $html );
 		$this->switch_to_locale( "en_GB" );

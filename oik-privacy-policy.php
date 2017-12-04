@@ -48,7 +48,7 @@ function oik_privacy_policy_admin_menu() {
  * 1.2         | 1.13
  * 1.3         | 2.2
  * 1.3.1-1.3.3 | 2.5 or higher. Note: oik v2.5 was the latest in April 2015.
- * 1.4.0       | 3.2.0-RC1
+ * 1.4.0       | 3.2.2
  *
  */ 
 function oik_privacy_policy_activation() {
@@ -60,7 +60,7 @@ function oik_privacy_policy_activation() {
       require_once( "admin/oik-activation.php" );
     }
   }  
-  $depends = "oik:3.2.0-RC1";
+  $depends = "oik:3.2.2";
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
 

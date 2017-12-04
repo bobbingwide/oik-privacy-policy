@@ -73,6 +73,8 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 	 
 	 */
 	function test_oik_privacy_policy_options_do_page() {
+	
+		$_SERVER['REQUEST_URI'] = "/";
 		$this->switch_to_locale( 'en_GB' );
 		ob_start(); 
 		$_REQUEST['_bw_privacy_policy_reset'] = "on";
@@ -98,6 +100,8 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 	 * which assumes admin/oik-privacy-policy.php has been loaded
 	 */
 	function test_oik_privacy_policy_options_do_page_bb_BB() {
+	
+		$_SERVER['REQUEST_URI'] = "/";
 		$this->switch_to_locale( 'bb_BB' );
 		$_REQUEST['_bw_privacy_policy_reset'] = "on";
 		ob_start(); 

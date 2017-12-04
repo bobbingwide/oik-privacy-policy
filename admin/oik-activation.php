@@ -1,6 +1,6 @@
-<?php // (C) Copyright Bobbing Wide 2012-2016
+<?php // (C) Copyright Bobbing Wide 2012-2017
 if ( !defined( "OIK_ACTIVATION_INCLUDED" ) ) {
-define( "OIK_ACTIVATION_INCLUDED", "3.1.0" );
+define( "OIK_ACTIVATION_INCLUDED", "3.2.0" );
 
 
 if ( function_exists( "oik_plugin_lazy_activation" ) ) {
@@ -11,68 +11,68 @@ if ( function_exists( "oik_plugin_lazy_activation" ) ) {
  * Produce an install plugin link
  *
  * @param string $plugin plugin slug
- * 
  * @return string link for the plugin install
  */
 function oik_plugin_install_plugin( $plugin ) {
-  $path = "update.php?action=install-plugin&plugin=$plugin";
-  $url = admin_url( $path );
-  $url = wp_nonce_url( $url, "install-plugin_$plugin" ); 
-  $link = '<a href="';
-  $link .= $url;
-  $link .= '">';
-  $link . __('Install') ;
-  $link .= " $plugin</a>";
-  return( $link );
+	$path = "update.php?action=install-plugin&plugin=$plugin";
+	$url = admin_url( $path );
+	$url = wp_nonce_url( $url, "install-plugin_$plugin" ); 
+	$link = '<a href="';
+	$link .= $url;
+	$link .= '">';
+	$link .= sprintf( __( 'Install %1$s', null ), $plugin ) ;
+	$link .= "</a>";
+	return $link ;
 }
 
 /**
- * Produce an "activate" plugin link
+ * Produces an "activate" plugin link
  *
- * @param string $plugin_file - e.g. oik/oik-header.php
- * We may not be activating the main plugin, so we need the relative path filename of the plugin to activate
- * @return string link to enable activation - which user must choose
- * We probably don't need plugin_status OR paged parameters
+ * We probably don't need plugin_status, s(earch) or paged parameters
  *
  * `
    http://example.com/wp-admin/plugins.php?
      action=activate
      &plugin=oik%2Foik.php
      &plugin_status=all
-     &paged=1&s
+     &paged=1
+		 &s
      &_wpnonce=a53a158be5
  * `
+ *
+ * @param string $plugin - relative plugin file e.g. oik/oik-header.php
+ * We may not be activating the main plugin, so we need the relative path filename of the plugin to activate
+ * @param string $plugin_name - e.g. oik-header
+ * @return string link to enable activation - which user must choose
 */                              
 function oik_plugin_activate_plugin( $plugin, $plugin_name) {
-  $path = "plugins.php?action=activate&plugin_status=all&paged=1&s&plugin=$plugin";
-  $url = admin_url( $path );
-  $url = wp_nonce_url( $url, "activate-plugin_$plugin" ); 
-  $link = '<a href="';
-  $link .= $url;
-  $link .= '">';
-  $link .= __( 'Activate' );
-  $link .= " ${plugin_name}</a>";
-  return( $link );
+	$path = "plugins.php?action=activate&plugin_status=all&paged=1&s&plugin=$plugin";
+	$url = admin_url( $path );
+	$url = wp_nonce_url( $url, "activate-plugin_$plugin" ); 
+	$link = '<a href="';
+	$link .= $url;
+	$link .= '">';
+	$link .= sprintf( __( 'Activate %1$s', null ), $plugin_name );
+	$link .= "</a>";
+	return $link;
 } 
  
 /**
  * Create an Update plugin link
  *
- * Decided to use "Update" rather than " Upgrade". 
- *
  * @param string $plugin the plugin slug
  * @return string the update link
  */
 function oik_plugin_update_plugin( $plugin ) {
-  $path = "update.php?action=upgrade-plugin&plugin=$plugin";
-  $url = admin_url( $path );
-  $url = wp_nonce_url( $url, "upgrade-plugin_$plugin" ); 
-  $link = '<a href="';
-  $link .= $url;
-  $link .= '">'; 
-  $link .= __( 'Update' );
-  $link .= " $plugin</a>";
-  return( $link );
+	$path = "update.php?action=upgrade-plugin&plugin=$plugin";
+	$url = admin_url( $path );
+	$url = wp_nonce_url( $url, "upgrade-plugin_$plugin" ); 
+	$link = '<a href="';
+	$link .= $url;
+	$link .= '">'; 
+	$link .= sprintf( __( 'Upgrade %1$s', null ), $plugin );
+	$link .= "</a>";
+	return $link;
 }
 
 /** 
@@ -186,12 +186,12 @@ function oik_plugin_oik_install_link( $plugin, $problem="missing" ) {
 if ( !function_exists( "oik_plugin_plugin_inactive" ) ) {
 function oik_plugin_plugin_inactive( $plugin=null, $dependencies=null, $problem=null ) {
   $plugin_name = basename( $plugin, ".php" );
-  $dependencies = str_replace( ":", " version ", $dependencies );
+  $dependencies = str_replace( ":", __(" version ", null) , $dependencies );
   $text = "<p><b>";
-  $text .= sprintf( __( '%1$s may not be fully functional.','oik'), $plugin_name );
+  $text .= sprintf( __( '%1$s may not be fully functional.', null), $plugin_name );
   $text .= "</b> ";
-  $text .= __( 'Please install and activate the required minimum version of this plugin:', 'oik' );
-  $text .= "$dependencies</p>";
+  $text .= sprintf( __( 'Please install and activate the required minimum version of this plugin: %1$s', null ), $dependencies );
+	$text .= "</p>";
   
   if ( current_filter() == "admin_notices" ) {
     $message = '<div class=" updated fade">';
