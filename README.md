@@ -3,11 +3,12 @@
 * Contributors: bobbingwide, vsgloik
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
-* Requires at least: 4.8
-* Tested up to: 4.9.1
-* Stable tag: 1.4.0
+* Requires at least: 4.9.8
+* Tested up to: 5.0
+* Stable tag: 1.4.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Gutenberg compatible: No
 
 Generate a privacy policy page, compliant with UK cookie law (EU cookie directive) for use on your website
 
@@ -16,6 +17,11 @@ Every website should have a privacy policy. The privacy policy should define how
 This plugin will help you create your policy page, and attach it to a menu of your choice.
 Choose the sections you require and tailor them for your company's information.
 The sample text uses shortcodes to reduce the amount of editing you need to do.
+
+The privacy policy page that is generated is not aware of the block editor.
+Since WordPress v4.9.6, core has provided its own privacy notice generator.
+We recommend you switch to using the WordPress solution and deactivate this plugin.
+
 
 ## Installation 
 1. Upload the contents of the oik-privacy-policy plugin to the `/wp-content/plugins/oik-privacy-policy' directory
@@ -27,7 +33,7 @@ The sample text uses shortcodes to reduce the amount of editing you need to do.
 
 * Note: oik-privacy-policy is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
 Download oik from
-[oik download](https://wordpress.org/extend/plugins/oik/)
+[oik download](https://wordpress.org/plugins/oik/)
 
 ## Frequently Asked Questions 
 # Installation 
@@ -41,7 +47,7 @@ Download oik from
 
 * Note: oik-privacy-policy is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
 Download oik from
-[oik download](https://wordpress.org/extend/plugins/oik/)
+[oik download](https://wordpress.org/plugins/oik/)
 
 # What does this plugin do? 
 It helps with the creation of a Privacy Policy page for your website.
@@ -61,7 +67,9 @@ The wording for the Cookie categories sections came from the ICC UK Cookie Guide
 [Download ICC UK Cookie Guide Second Edition November 2012](https://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 # Is it OK to use this text? 
-Yes, Business Link provided a number of samples. The introduction page for the Sample IT policies, disclaimers and notices page said:
+Yes, but it needs additions for GDPR.
+
+In May 2012, Business Link provided a number of samples. The introduction page for the Sample IT policies, disclaimers and notices page said:
 This guide gives sample wording for common internet-related statements and notices. It outlines the main issues that these notices should cover, which in turn will help you to write your own statements tailored to your business' needs. These sample internet policies and notices can be used and modified without copyright infringement.
 
 You can still find this same text on [NI Business Info - sample IT policies, disclaimers and notices](https://nibusinessinfo.co.uk/content/sample-it-policies-disclaimers-and-notices)
@@ -92,18 +100,7 @@ Either use the [cookie-cat](https://www.wordpress.org/plugins/cookie-cat/) plugi
 * See [Cookie Audits and Privacy Policy](https://civicuk.com/cookie-law/deployment#audit)
 
 # Can this plugin generate other policies? 
-The *WP-Policies* plugin provided a number of policies, including:
-
-* anti-spam policy - policy on SPAM
-* disclaimer -  no representations, warranties, or assurances; limitation of Liability
-* DMCA notice - Digital Millennium Copyright Act of 1998; respect the individual property of others
-* e-mail policy - policy on emails
-* earnings disclaimer - you may not get rich with this product
-* medical disclaimer - talk to your doctor
-* terms of use - website terms and conditions of use
-* testimonial disclaimer - policy explaining how testimonials may be used
-
-These may be added to oik-privacy-policy plugin in the future. Let us know your requirements.
+No. There's no need.
 
 # Where can I find more information? 
 [oik-privacy-policy FAQs](https://www.oik-plugins.com/oik-plugins/privacy-policy-page-generator/?oik-tab=faq)
@@ -116,6 +113,9 @@ These may be added to oik-privacy-policy plugin in the future. Let us know your 
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
+# 1.4.1 
+We recommend you deactivate this plugin. Use WordPress core functionality from now on.
+
 # 1.4.0 
 Translation ready. Tested with WordPress 4.9.1 and WordPress Multisite. Please upgrade oik to v3.2.2.
 
@@ -141,6 +141,15 @@ Depends upon oik version 1.17 or higher.
 Depends upon oik version 1.13 or higher.
 
 ## Changelog 
+# 1.4.1 
+* Added: Recommendation to use WordPress core privacy logic., https://github.com/bobbingwide/oik-privacy-policy/issues/5
+* Added: Marked as Gutenberg compatible: No, https://github.com/bobbingwide/oik-privacy-policy/issues/5
+* Changed: Now uses https for link to allaboutcookies.org
+* Changed: Now dependent upon oik v3.2.8, https://github.com/bobbingwide/oik-privacy-policy/issues/5
+* Changed: Out of date FAQs
+* Tested: With Gutenberg 4.6.1
+* Tested: With WordPress 5.0
+
 # 1.4.0 
 * Changed: 100% translatable and localizable on WordPress.org https://github.com/bobbingwide/oik-privacy-policy/issues/2
 * Changed: Dependent upon oik v3.2.2 https://github.com/bobbingwide/oik-privacy-policy/issues/2

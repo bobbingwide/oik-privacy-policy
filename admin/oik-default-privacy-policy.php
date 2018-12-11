@@ -1,4 +1,4 @@
-<?php // (C) Copyright Business Link 2012, (C) Bobbing Wide 2012-2017
+<?php // (C) Copyright Business Link 2012, (C) Bobbing Wide 2012-2018
 
 /** 
  * Return an array of the text for each of the different selectable parts of the privacy policy
@@ -86,8 +86,8 @@ function oik_default_privacy_policy() {
   $text['cookies'] .= __( "</p>", 'oik-privacy-policy' );
 
   $text['cookies-info'] = __( "<p>You can find more information about cookies at:</p><ul>", 'oik-privacy-policy' ); 
-	// As of March 2017 - allaboutcookies.org did not support https.
-  $text['cookies-all-about'] = __( "<li><a href=\"http://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>", 'oik-privacy-policy' );
+	// In March 2017 - allaboutcookies.org did not support https. It does now.
+  $text['cookies-all-about'] = __( "<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>", 'oik-privacy-policy' );
   $text['cookies-online-choices'] = __( "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.eu</a></li>", 'oik-privacy-policy' );
   $text['cookies-google-video'] = __( "<li>For a video about cookies visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>", 'oik-privacy-policy' );
   $text['cookies-info-eul'] = __( "</ul>", 'oik-privacy-policy' );

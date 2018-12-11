@@ -1,29 +1,33 @@
-# Copyright (C) 2017 oik-privacy-policy
+# Copyright (C) 2018 oik-privacy-policy
 # This file is distributed under the same license as the oik-privacy-policy package.
 msgid ""
 msgstr ""
-"Project-Id-Version: oik-privacy-policy 1.4.0\n"
+"Project-Id-Version: oik-privacy-policy 1.4.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2017-11-28 17:35:12+00:00\n"
+"POT-Creation-Date: 2018-12-11 12:06:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-#: admin/oik-activation.php:24
-msgid "Install"
-msgstr "Install"
+#: admin/oik-activation.php:23
+msgid "Install %1$s"
+msgstr "Install %1$s"
 
-#: admin/oik-activation.php:53
-msgid "Activate"
-msgstr "Activate"
+#: admin/oik-activation.php:55
+msgid "Activate %1$s"
+msgstr "Activate %1$s"
 
 #: admin/oik-activation.php:73
-msgid "Update"
-msgstr "Update"
+msgid "Upgrade %1$s"
+msgstr "Upgrade %1$s"
+
+#: admin/oik-activation.php:189
+msgid " version "
+msgstr " version "
 
 #: admin/oik-activation.php:191
 msgid "%1$s may not be fully functional."
@@ -31,8 +35,8 @@ msgstr "%1$s may not be fully functional."
 
 #: admin/oik-activation.php:193
 msgid ""
-"Please install and activate the required minimum version of this plugin:"
-msgstr "Please install and activate the required minimum version of this plugin:"
+"Please install and activate the required minimum version of this plugin: %1$s"
+msgstr "Please install and activate the required minimum version of this plugin: %1$s"
 
 #: admin/oik-default-privacy-policy.php:16
 msgid ""
@@ -179,9 +183,9 @@ msgstr "<p>You can find more information about cookies at:</p><ul>"
 
 #: admin/oik-default-privacy-policy.php:90
 msgid ""
-"<li><a href=\"http://www.allaboutcookies.org\">www.allaboutcookies.org</a></"
+"<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></"
 "li>"
-msgstr "<li><a href=\"http://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>"
+msgstr "<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>"
 
 #: admin/oik-default-privacy-policy.php:91
 msgid ""
