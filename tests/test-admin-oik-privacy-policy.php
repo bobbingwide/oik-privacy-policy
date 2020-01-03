@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2017
+<?php // (C) Copyright Bobbing Wide 2017-2020
 
 
 /**
@@ -10,7 +10,7 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 
 	/**
 	 */
-	function setUp() {
+	function setUp(): void {
 		parent::setUp();
 		//oik_require_lib( "oik-sc-help" );
 		if ( !defined( 'BW_TRANSLATE_DEPRECATED' ) ) {
