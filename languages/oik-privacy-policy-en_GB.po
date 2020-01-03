@@ -1,16 +1,16 @@
-# Copyright (C) 2018 oik-privacy-policy
+# Copyright (C) 2020 oik-privacy-policy
 # This file is distributed under the same license as the oik-privacy-policy package.
 msgid ""
 msgstr ""
-"Project-Id-Version: oik-privacy-policy 1.4.1\n"
+"Project-Id-Version: oik-privacy-policy 1.4.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2018-12-11 12:06:09+00:00\n"
+"POT-Creation-Date: 2020-01-03 17:01:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 #: admin/oik-activation.php:23
@@ -609,6 +609,6 @@ msgid "bobbingwide"
 msgstr "bobbingwide"
 
 #. Author URI of the plugin/theme
-msgid "https://www.oik-plugins.com/author/bobbingwide"
-msgstr "https://www.oik-plugins.com/author/bobbingwide"
+msgid "https://bobbingwide.com/about-bobbing-wide"
+msgstr "https://bobbingwide.com/about-bobbing-wide"
 

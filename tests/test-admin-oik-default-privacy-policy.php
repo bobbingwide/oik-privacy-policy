@@ -5,6 +5,9 @@
  * @package oik-privacy-policy
  * 
  * Test the functions in admin/oik-default-privacy-policy.php
+ *
+ * For the tests to succeed you need to be using the latest version of the language files
+ * from the plugin, not the versions downloaded from wordpress.org ( in wp-content/languages/pligins )
  */
 class Tests_admin_oik_default_privacy_policy_inc extends BW_UnitTestCase {
 
