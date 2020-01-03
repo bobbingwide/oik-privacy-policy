@@ -1,4 +1,10 @@
-<?php // (C) Copyright Bobbing Wide 2012-2017
+<?php
+/**
+ * Dependent plugin activation logic.
+ *
+ * @copyright (C) Copyright Bobbing Wide 2012-2017, 2020
+ * @package oik-libs
+ */
 if ( !defined( "OIK_ACTIVATION_INCLUDED" ) ) {
 define( "OIK_ACTIVATION_INCLUDED", "3.2.0" );
 
