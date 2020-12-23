@@ -4,8 +4,8 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 4.9.8
-* Tested up to: 5.3.2
-* Stable tag: 1.4.2
+* Tested up to: 5.6
+* Stable tag: 1.4.3
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: No
@@ -113,6 +113,9 @@ No. There's no need.
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
+# 1.4.3 
+Updated strings to match the UK English translation; mostly additional commas
+
 # 1.4.2 
 Tested with PHPUnit 8 using WordPress 5.3.2 and WordPress Multi Site, PHP 7.3 and  PHP 7.4
 
@@ -144,6 +147,13 @@ Depends upon oik version 1.17 or higher.
 Depends upon oik version 1.13 or higher.
 
 ## Changelog 
+# 1.4.3 
+* Changed: Updated strings to match the UK English translations.,https://github.com/bobbingwide/oik-privacy-policy/issues/7
+* Changed: Altered some strings to cater for a new automatic procedure for localization,https://github.com/bobbingwide/oik-privacy-policy/issues/7
+* Tested: With WordPress 5.6 and WordPress Multi Site
+* Tested: With PHPUnit 8
+* Tested: With PHP 7.4
+
 # 1.4.2 
 * Changed: Update to test with PHPUnit 8,https://github.com/bobbingwide/oik-privacy-policy/issues/6
 * Tested: With WordPress 5.3.2 and WordPress Multi Site

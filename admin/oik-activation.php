@@ -6,7 +6,7 @@
  * @package oik-libs
  */
 if ( !defined( "OIK_ACTIVATION_INCLUDED" ) ) {
-define( "OIK_ACTIVATION_INCLUDED", "3.2.0" );
+define( "OIK_ACTIVATION_INCLUDED", "3.2.1" );
 
 
 if ( function_exists( "oik_plugin_lazy_activation" ) ) {
@@ -192,7 +192,7 @@ function oik_plugin_oik_install_link( $plugin, $problem="missing" ) {
 if ( !function_exists( "oik_plugin_plugin_inactive" ) ) {
 function oik_plugin_plugin_inactive( $plugin=null, $dependencies=null, $problem=null ) {
   $plugin_name = basename( $plugin, ".php" );
-  $dependencies = str_replace( ":", __(" version ", null) , $dependencies );
+  $dependencies = str_replace( ":", ' ' . __("version", null) . ' ' , $dependencies );
   $text = "<p><b>";
   $text .= sprintf( __( '%1$s may not be fully functional.', null), $plugin_name );
   $text .= "</b> ";
