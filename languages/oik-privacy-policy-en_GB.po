@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oik-privacy-policy 1.4.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2020-01-03 17:01:14+00:00\n"
+"POT-Creation-Date: 2020-12-23 17:13:08+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
@@ -13,27 +13,27 @@ msgstr ""
 "PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-#: admin/oik-activation.php:23
+#: admin/oik-activation.php:29
 msgid "Install %1$s"
 msgstr "Install %1$s"
 
-#: admin/oik-activation.php:55
+#: admin/oik-activation.php:61
 msgid "Activate %1$s"
 msgstr "Activate %1$s"
 
-#: admin/oik-activation.php:73
+#: admin/oik-activation.php:79
 msgid "Upgrade %1$s"
 msgstr "Upgrade %1$s"
 
-#: admin/oik-activation.php:189
+#: admin/oik-activation.php:195
 msgid " version "
 msgstr " version "
 
-#: admin/oik-activation.php:191
+#: admin/oik-activation.php:197
 msgid "%1$s may not be fully functional."
 msgstr "%1$s may not be fully functional."
 
-#: admin/oik-activation.php:193
+#: admin/oik-activation.php:199
 msgid ""
 "Please install and activate the required minimum version of this plugin: %1$s"
 msgstr "Please install and activate the required minimum version of this plugin: %1$s"
@@ -77,7 +77,7 @@ msgstr "<p>We may collect the following information:</p>"
 
 #: admin/oik-default-privacy-policy.php:26
 #: admin/oik-default-privacy-policy.php:35
-#: admin/oik-default-privacy-policy.php:127
+#: admin/oik-default-privacy-policy.php:122
 msgid "<ul>"
 msgstr "<ul>"
 
@@ -91,8 +91,8 @@ msgstr "<li>contact information including email address</li>"
 
 #: admin/oik-default-privacy-policy.php:29
 msgid ""
-"<li>demographic information such as postcode, preferences and interests</li>"
-msgstr "<li>demographic information such as postcode, preferences and interests</li>"
+"<li>demographic information such as postcode, preferences, and interests</li>"
+msgstr "<li>demographic information such as postcode, preferences, and interests</li>"
 
 #: admin/oik-default-privacy-policy.php:30
 msgid "<li>other information relevant to customer surveys and/or offers</li>"
@@ -100,8 +100,8 @@ msgstr "<li>other information relevant to customer surveys and/or offers</li>"
 
 #: admin/oik-default-privacy-policy.php:31
 #: admin/oik-default-privacy-policy.php:40
-#: admin/oik-default-privacy-policy.php:93
-#: admin/oik-default-privacy-policy.php:131
+#: admin/oik-default-privacy-policy.php:91
+#: admin/oik-default-privacy-policy.php:126
 msgid "</ul>"
 msgstr "</ul>"
 
@@ -111,9 +111,9 @@ msgstr "<h3>What we do with the information we gather</h3>"
 
 #: admin/oik-default-privacy-policy.php:34
 msgid ""
-"<p>We require this information to understand your needs and provide you with "
-"a better service, and in particular for the following reasons:</p>"
-msgstr "<p>We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:</p>"
+"<p>We require this information to understand your needs, and provide you "
+"with a better service, and in particular for the following reasons:</p>"
+msgstr "<p>We require this information to understand your needs, and provide you with a better service, and in particular for the following reasons:</p>"
 
 #: admin/oik-default-privacy-policy.php:36
 msgid "<li>Internal record keeping.</li>"
@@ -127,17 +127,17 @@ msgstr "<li>We may use the information to improve our products and services</li>
 #: admin/oik-default-privacy-policy.php:38
 msgid ""
 "<li>We may periodically send promotional emails about new products, special "
-"offers or other information which we think you may find interesting using "
+"offers, or other information which we think you may find interesting using "
 "the email address which you have provided.</li>"
-msgstr "<li>We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.</li>"
+msgstr "<li>We may periodically send promotional emails about new products, special offers, or other information which we think you may find interesting using the email address which you have provided.</li>"
 
 #: admin/oik-default-privacy-policy.php:39
 msgid ""
 "<li>From time to time, we may also use your information to contact you for "
-"market research purposes. We may contact you by email, phone, fax or mail. "
+"market research purposes. We may contact you by email, phone, fax, or mail. "
 "We may use the information to customise the website according to your "
 "interests.</li>"
-msgstr "<li>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customise the website according to your interests.</li>"
+msgstr "<li>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax, or mail. We may use the information to customise the website according to your interests.</li>"
 
 #: admin/oik-default-privacy-policy.php:42
 msgid "<h3>Security</h3>"
@@ -147,9 +147,9 @@ msgstr "<h3>Security</h3>"
 msgid ""
 "<p>We are committed to ensuring that your information is secure. In order to "
 "prevent unauthorised access or disclosure, we have put in place suitable "
-"physical, electronic and managerial procedures to safeguard and secure the "
+"physical, electronic, and managerial procedures to safeguard and secure the "
 "information we collect online.</p>"
-msgstr "<p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>"
+msgstr "<p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the information we collect online.</p>"
 
 #: admin/oik-default-privacy-policy.php:82
 msgid "<h3>What is a cookie?</h3>"
@@ -158,83 +158,74 @@ msgstr "<h3>What is a cookie?</h3>"
 #: admin/oik-default-privacy-policy.php:83
 msgid ""
 "<p>Cookies are text files containing small amounts of information which are "
-"downloaded to your device when you visit a website. "
-msgstr "<p>Cookies are text files containing small amounts of information which are downloaded to your device when you visit a website. "
+"downloaded to your device when you visit a website. Cookies are then sent "
+"back to the originating website on each subsequent visit, or to another "
+"website that recognises that cookie. Cookies are useful because they allow a "
+"website to recognise a user's device."
+msgstr "<p>Cookies are text files containing small amounts of information which are downloaded to your device when you visit a website. Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. Cookies are useful because they allow a website to recognise a user's device."
 
 #: admin/oik-default-privacy-policy.php:84
-msgid ""
-"Cookies are then sent back to the originating website on each subsequent "
-"visit, or to another website that recognises that cookie. "
-msgstr "Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. "
-
-#: admin/oik-default-privacy-policy.php:85
-msgid ""
-"Cookies are useful because they allow a website to recognise a user's "
-"device. "
-msgstr "Cookies are useful because they allow a website to recognise a user's device. "
-
-#: admin/oik-default-privacy-policy.php:86
 msgid "</p>"
 msgstr "</p>"
 
-#: admin/oik-default-privacy-policy.php:88
+#: admin/oik-default-privacy-policy.php:86
 msgid "<p>You can find more information about cookies at:</p><ul>"
 msgstr "<p>You can find more information about cookies at:</p><ul>"
 
-#: admin/oik-default-privacy-policy.php:90
+#: admin/oik-default-privacy-policy.php:88
 msgid ""
 "<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></"
 "li>"
 msgstr "<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>"
 
-#: admin/oik-default-privacy-policy.php:91
+#: admin/oik-default-privacy-policy.php:89
 msgid ""
 "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.eu</"
 "a></li>"
 msgstr "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.eu</a></li>"
 
-#: admin/oik-default-privacy-policy.php:92
+#: admin/oik-default-privacy-policy.php:90
 msgid ""
 "<li>For a video about cookies visit <a href=\"https://www.google.com/"
 "policies/technologies/cookies/\">how Google uses cookies</a></li>"
 msgstr "<li>For a video about cookies visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>"
 
-#: admin/oik-default-privacy-policy.php:95
+#: admin/oik-default-privacy-policy.php:93
 msgid ""
 "Cookies do lots of different jobs, like letting you navigate between pages "
 "efficiently, remembering your preferences, and generally improve the user "
 "experience. "
 msgstr "Cookies do lots of different jobs, like letting you navigate between pages efficiently, remembering your preferences, and generally improve the user experience. "
 
-#: admin/oik-default-privacy-policy.php:96
+#: admin/oik-default-privacy-policy.php:94
 msgid ""
 "They can also help to ensure that adverts you see online are more relevant "
 "to you and your interests. "
 msgstr "They can also help to ensure that adverts you see online are more relevant to you and your interests. "
 
-#: admin/oik-default-privacy-policy.php:97
+#: admin/oik-default-privacy-policy.php:95
 msgid ""
 "The cookies used on this website have been categorised based on the "
 "categories found in the ICC UK Cookie guide. "
 msgstr "The cookies used on this website have been categorised based on the categories found in the ICC UK Cookie guide. "
 
-#: admin/oik-default-privacy-policy.php:99
+#: admin/oik-default-privacy-policy.php:97
 msgid "<h3>Category 1: strictly necessary cookies</h3>"
 msgstr "<h3>Category 1: strictly necessary cookies</h3>"
 
-#: admin/oik-default-privacy-policy.php:100
+#: admin/oik-default-privacy-policy.php:98
 msgid ""
 "<p>These cookies are essential in order to enable you to move around the "
 "website and use its features, such as accessing secure areas of the website. "
-"Without these cookies services you have asked for, like shopping baskets or "
-"e-billing, cannot be provided.</p>"
-msgstr "<p>These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies services you have asked for, like shopping baskets or e-billing, cannot be provided.</p>"
+"Without these cookies, services you have asked for, like shopping baskets or "
+"eBilling, cannot be provided.</p>"
+msgstr "<p>These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies, services you have asked for, like shopping baskets or eBilling, cannot be provided.</p>"
 
-#: admin/oik-default-privacy-policy.php:102
+#: admin/oik-default-privacy-policy.php:100
 msgid "<h3>Category 2: performance cookies</h3>"
 msgstr "<h3>Category 2: performance cookies</h3>"
 
-#: admin/oik-default-privacy-policy.php:103
+#: admin/oik-default-privacy-policy.php:101
 msgid ""
 "<p>These cookies collect information about how visitors use a website, for "
 "instance which pages visitors go to most often, and if they get error "
@@ -243,36 +234,36 @@ msgid ""
 "and therefore anonymous. It is only used to improve how a website works.</p>"
 msgstr "<p>These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies don't collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how a website works.</p>"
 
-#: admin/oik-default-privacy-policy.php:105
-#: admin/oik-default-privacy-policy.php:110
+#: admin/oik-default-privacy-policy.php:103
+#: admin/oik-default-privacy-policy.php:108
 msgid ""
 "<p>By using our website, you agree that we can place these type of cookies "
 "on your device.</p>"
 msgstr "<p>By using our website, you agree that we can place these type of cookies on your device.</p>"
 
-#: admin/oik-default-privacy-policy.php:107
+#: admin/oik-default-privacy-policy.php:105
 msgid "<h3>Category 3: functionality cookies</h3>"
 msgstr "<h3>Category 3: functionality cookies</h3>"
 
-#: admin/oik-default-privacy-policy.php:108
+#: admin/oik-default-privacy-policy.php:106
 msgid ""
 "<p>These cookies allow the website to remember choices you make (such as "
-"your user name, language or the region you are in) and provide enhanced, "
+"your username, language, or the region you are in) and provide enhanced, "
 "more personal features. For instance, a website may be able to provide you "
 "with local weather reports or traffic news by storing in a cookie the region "
 "in which you are currently located. These cookies can also be used to "
-"remember changes you have made to text size, fonts and other parts of web "
+"remember changes you have made to text size, fonts, and other parts of web "
 "pages that you can customise. They may also be used to provide services you "
 "have asked for such as watching a video or commenting on a blog. The "
 "information these cookies collect may be anonymised and they cannot track "
 "your browsing activity on other websites.</p>"
-msgstr "<p>These cookies allow the website to remember choices you make (such as your user name, language or the region you are in) and provide enhanced, more personal features. For instance, a website may be able to provide you with local weather reports or traffic news by storing in a cookie the region in which you are currently located. These cookies can also be used to remember changes you have made to text size, fonts and other parts of web pages that you can customise. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies collect may be anonymised and they cannot track your browsing activity on other websites.</p>"
+msgstr "<p>These cookies allow the website to remember choices you make (such as your username, language, or the region you are in) and provide enhanced, more personal features. For instance, a website may be able to provide you with local weather reports or traffic news by storing in a cookie the region in which you are currently located. These cookies can also be used to remember changes you have made to text size, fonts, and other parts of web pages that you can customise. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies collect may be anonymised and they cannot track your browsing activity on other websites.</p>"
 
-#: admin/oik-default-privacy-policy.php:112
+#: admin/oik-default-privacy-policy.php:110
 msgid "<h3>Category 4: targeting cookies or advertising cookies</h3>"
 msgstr "<h3>Category 4: targeting cookies or advertising cookies</h3>"
 
-#: admin/oik-default-privacy-policy.php:113
+#: admin/oik-default-privacy-policy.php:111
 msgid ""
 "<p>These cookies are used to deliver adverts more relevant to you and your "
 "interests They are also used to limit the number of times you see an "
@@ -284,89 +275,77 @@ msgid ""
 "functionality provided by the other organizations.</p>"
 msgstr "<p>These cookies are used to deliver adverts more relevant to you and your interests They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>"
 
-#: admin/oik-default-privacy-policy.php:115
+#: admin/oik-default-privacy-policy.php:113
 msgid ""
 "<p>A list of all the cookies used on this website by category is set out "
 "below.</p>"
 msgstr "<p>A list of all the cookies used on this website by category is set out below.</p>"
 
-#: admin/oik-default-privacy-policy.php:120
+#: admin/oik-default-privacy-policy.php:118
 msgid "<h3>Links to other websites</h3>"
 msgstr "<h3>Links to other websites</h3>"
 
-#: admin/oik-default-privacy-policy.php:121
-msgid "<p>Our website may contain links to other websites of interest. "
-msgstr "<p>Our website may contain links to other websites of interest. "
-
-#: admin/oik-default-privacy-policy.php:122
+#: admin/oik-default-privacy-policy.php:119
 msgid ""
-"However, once you have used these links to leave our site, you should note "
-"that we do not have any control over that other website. "
-msgstr "However, once you have used these links to leave our site, you should note that we do not have any control over that other website. "
+"<p>Our website may contain links to other websites of interest. However, "
+"once you have used these links to leave our site, you should note that we do "
+"not have any control over that other website. Therefore, we cannot be "
+"responsible for the protection and privacy of any information which you "
+"provide whilst visiting such sites, and such sites are not governed by this "
+"privacy statement. You should exercise caution and look at the privacy "
+"statement applicable to the website in question.</p>"
+msgstr "<p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites, and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p>"
 
-#: admin/oik-default-privacy-policy.php:123
-msgid ""
-"Therefore, we cannot be responsible for the protection and privacy of any "
-"information which you provide whilst visiting such sites and such sites are "
-"not governed by this privacy statement. "
-msgstr "Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. "
-
-#: admin/oik-default-privacy-policy.php:124
-msgid ""
-"You should exercise caution and look at the privacy statement applicable to "
-"the website in question.</p>"
-msgstr "You should exercise caution and look at the privacy statement applicable to the website in question.</p>"
-
-#: admin/oik-default-privacy-policy.php:125
+#: admin/oik-default-privacy-policy.php:120
 msgid "<h3>Controlling your personal information</h3>"
 msgstr "<h3>Controlling your personal information</h3>"
 
-#: admin/oik-default-privacy-policy.php:126
+#: admin/oik-default-privacy-policy.php:121
 msgid ""
 "<p>You may choose to restrict the collection or use of your personal "
 "information in the following ways:</p>"
 msgstr "<p>You may choose to restrict the collection or use of your personal information in the following ways:</p>"
 
-#: admin/oik-default-privacy-policy.php:129
+#: admin/oik-default-privacy-policy.php:124
 msgid ""
 "<li>whenever you are asked to fill in a form on the website, look for the "
 "box that you can click to indicate that you do not want the information to "
 "be used by anybody for direct marketing purposes</li>"
 msgstr "<li>whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes</li>"
 
-#: admin/oik-default-privacy-policy.php:130
+#: admin/oik-default-privacy-policy.php:125
 msgid ""
 "<li>if you have previously agreed to us using your personal information for "
 "direct marketing purposes, you may change your mind at any time by writing "
 "to or emailing us at [bw_mailto]</li>"
 msgstr "<li>if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [bw_mailto]</li>"
 
-#: admin/oik-default-privacy-policy.php:133
+#: admin/oik-default-privacy-policy.php:128
 msgid ""
-"<p>We will not sell, distribute or lease your personal information to third "
+"<p>We will not sell, distribute, or lease your personal information to third "
 "parties unless we have your permission or are required by law to do so. We "
 "may use your personal information to send you promotional information about "
 "third parties which we think you may find interesting if you tell us that "
 "you wish this to happen.</p>"
-msgstr "<p>We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>"
+msgstr "<p>We will not sell, distribute, or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>"
 
-#: admin/oik-default-privacy-policy.php:134
+#: admin/oik-default-privacy-policy.php:129
 msgid ""
 "<p>You may request details of personal information which we hold about you "
 "under the Data Protection Act 1998.</p>"
 msgstr "<p>You may request details of personal information which we hold about you under the Data Protection Act 1998.</p>"
 
-#: admin/oik-default-privacy-policy.php:135
+#: admin/oik-default-privacy-policy.php:130
 msgid "<p>A small fee will be payable.</p>"
 msgstr "<p>A small fee will be payable.</p>"
 
-#: admin/oik-default-privacy-policy.php:136
+#: admin/oik-default-privacy-policy.php:131
 msgid ""
-"<p>If you would like a copy of the information held on you please write to:</"
-"p>[bw_address]"
-msgstr "<p>If you would like a copy of the information held on you please write to:</p>[bw_address]"
+"<p>If you would like a copy of the information held on you, please write to:"
+"</p>[bw_address]"
+msgstr "<p>If you would like a copy of the information held on you, please write to:</p>[bw_address]"
 
-#: admin/oik-default-privacy-policy.php:137
+#: admin/oik-default-privacy-policy.php:132
 msgid ""
 "<p>If you believe that any information we are holding on you is incorrect or "
 "incomplete, please write to or email us as soon as possible at the above "
@@ -590,25 +569,20 @@ msgstr "The new page will be added to menu: %1$s"
 msgid "Add to menu"
 msgstr "Add to menu"
 
-#. Plugin Name of the plugin/theme
 msgid "oik-privacy-policy"
 msgstr "oik-privacy-policy"
 
-#. Plugin URI of the plugin/theme
 msgid "https://www.oik-plugins.com/oik-plugins/oik-privacy-policy"
 msgstr "https://www.oik-plugins.com/oik-plugins/oik-privacy-policy"
 
-#. Description of the plugin/theme
 msgid ""
 "Generate a privacy policy page, compliant with UK cookie law (EU cookie "
 "directive) for use on your website"
 msgstr "Generate a privacy policy page, compliant with UK cookie law (EU cookie directive) for use on your website"
 
-#. Author of the plugin/theme
 msgid "bobbingwide"
 msgstr "bobbingwide"
 
-#. Author URI of the plugin/theme
 msgid "https://bobbingwide.com/about-bobbing-wide"
 msgstr "https://bobbingwide.com/about-bobbing-wide"
 

@@ -26,21 +26,21 @@ function oik_default_privacy_policy() {
   $text['wecollect'] .= __( "<ul>", 'oik-privacy-policy' );
   $text['wecollect-name'] = __( "<li>name and job title</li>", 'oik-privacy-policy' );
   $text['wecollect-contact'] = __( "<li>contact information including email address</li>", 'oik-privacy-policy' );
-  $text['wecollect-demographics'] = __( "<li>demographic information such as postcode, preferences and interests</li>", 'oik-privacy-policy' );
+  $text['wecollect-demographics'] = __( "<li>demographic information such as postcode, preferences, and interests</li>", 'oik-privacy-policy' );
   $text['wecollect-other'] = __( "<li>other information relevant to customer surveys and/or offers</li>", 'oik-privacy-policy' );
   $text['wecollect-eul'] = __( "</ul>", 'oik-privacy-policy' );
   
   $text['weusefor'] = __( "<h3>What we do with the information we gather</h3>", 'oik-privacy-policy' );
-  $text['weusefor'] .= __( "<p>We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:</p>", 'oik-privacy-policy' );
+  $text['weusefor'] .= __( "<p>We require this information to understand your needs, and provide you with a better service, and in particular for the following reasons:</p>", 'oik-privacy-policy' );
   $text['weusefor'] .= __( "<ul>", 'oik-privacy-policy' );
   $text['weusefor-internal'] = __( "<li>Internal record keeping.</li>", 'oik-privacy-policy' );
   $text['weusefor-improve'] = __( "<li>We may use the information to improve our products and services</li>", 'oik-privacy-policy' );
-  $text['weusefor-emails'] = __( "<li>We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided.</li>", 'oik-privacy-policy' );
-  $text['weusefor-research'] = __( "<li>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customise the website according to your interests.</li>", 'oik-privacy-policy' );
+  $text['weusefor-emails'] = __( "<li>We may periodically send promotional emails about new products, special offers, or other information which we think you may find interesting using the email address which you have provided.</li>", 'oik-privacy-policy' );
+  $text['weusefor-research'] = __( "<li>From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax, or mail. We may use the information to customise the website according to your interests.</li>", 'oik-privacy-policy' );
   $text['weusefor-eul'] = __( "</ul>", 'oik-privacy-policy' );
   
   $text['security'] = __( "<h3>Security</h3>", 'oik-privacy-policy' );
-  $text['security'] .= __( "<p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>", 'oik-privacy-policy' );
+  $text['security'] .= __( "<p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the information we collect online.</p>", 'oik-privacy-policy' );
   
   /* This is the original text from the Business Link sample privacy policy. We replace it by the text from the ICC Cookie Guide   
   
@@ -80,9 +80,7 @@ function oik_default_privacy_policy() {
   /** Extracted from the April 2012 version of the ICC Cookie Guide */
 
   $text['cookies'] = __( "<h3>What is a cookie?</h3>", 'oik-privacy-policy' ); 
-  $text['cookies'] .= __( "<p>Cookies are text files containing small amounts of information which are downloaded to your device when you visit a website. ", 'oik-privacy-policy' );
-  $text['cookies'] .= __( "Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. ", 'oik-privacy-policy' );
-  $text['cookies'] .= __( "Cookies are useful because they allow a website to recognise a user's device. ", 'oik-privacy-policy' ); 
+  $text['cookies'] .= __( "<p>Cookies are text files containing small amounts of information which are downloaded to your device when you visit a website. Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognises that cookie. Cookies are useful because they allow a website to recognise a user's device.", 'oik-privacy-policy' );
   $text['cookies'] .= __( "</p>", 'oik-privacy-policy' );
 
   $text['cookies-info'] = __( "<p>You can find more information about cookies at:</p><ul>", 'oik-privacy-policy' ); 
@@ -97,7 +95,7 @@ function oik_default_privacy_policy() {
   $text['cookies-categorised'] = __( "The cookies used on this website have been categorised based on the categories found in the ICC UK Cookie guide. ", 'oik-privacy-policy' );
   
   $text['cookie-cat-1'] = __( "<h3>Category 1: strictly necessary cookies</h3>", 'oik-privacy-policy' );
-  $text['cookie-cat-1'] .= __( "<p>These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies services you have asked for, like shopping baskets or e-billing, cannot be provided.</p>", 'oik-privacy-policy' );                          
+  $text['cookie-cat-1'] .= __( "<p>These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies, services you have asked for, like shopping baskets or eBilling, cannot be provided.</p>", 'oik-privacy-policy' );
                             
   $text['cookie-cat-2'] = __( "<h3>Category 2: performance cookies</h3>", 'oik-privacy-policy' );
   $text['cookie-cat-2'] .= __( "<p>These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies don't collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how a website works.</p>", 'oik-privacy-policy' );
@@ -105,7 +103,7 @@ function oik_default_privacy_policy() {
   $text['cookie-consent-2'] = __( "<p>By using our website, you agree that we can place these type of cookies on your device.</p>", 'oik-privacy-policy' );                                                                                                                  
   
   $text['cookie-cat-3'] = __( "<h3>Category 3: functionality cookies</h3>", 'oik-privacy-policy' );
-  $text['cookie-cat-3'] .= __( "<p>These cookies allow the website to remember choices you make (such as your user name, language or the region you are in) and provide enhanced, more personal features. For instance, a website may be able to provide you with local weather reports or traffic news by storing in a cookie the region in which you are currently located. These cookies can also be used to remember changes you have made to text size, fonts and other parts of web pages that you can customise. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies collect may be anonymised and they cannot track your browsing activity on other websites.</p>", 'oik-privacy-policy' );
+  $text['cookie-cat-3'] .= __( "<p>These cookies allow the website to remember choices you make (such as your username, language, or the region you are in) and provide enhanced, more personal features. For instance, a website may be able to provide you with local weather reports or traffic news by storing in a cookie the region in which you are currently located. These cookies can also be used to remember changes you have made to text size, fonts, and other parts of web pages that you can customise. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies collect may be anonymised and they cannot track your browsing activity on other websites.</p>", 'oik-privacy-policy' );
   
   $text['cookie-consent-3'] = __( "<p>By using our website, you agree that we can place these type of cookies on your device.</p>", 'oik-privacy-policy' );                                                                                                                  
                             
@@ -118,10 +116,7 @@ function oik_default_privacy_policy() {
   
   
   $text['links'] = __( "<h3>Links to other websites</h3>", 'oik-privacy-policy' );
-  $text['links'] .= __( "<p>Our website may contain links to other websites of interest. ", 'oik-privacy-policy' );
-  $text['links'] .= __( "However, once you have used these links to leave our site, you should note that we do not have any control over that other website. ", 'oik-privacy-policy' );
-  $text['links'] .= __( "Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. ", 'oik-privacy-policy' );
-  $text['links'] .= __( "You should exercise caution and look at the privacy statement applicable to the website in question.</p>", 'oik-privacy-policy' );
+  $text['links'] .= __( "<p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites, and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p>", 'oik-privacy-policy' );
   $text['personal-info'] = __( "<h3>Controlling your personal information</h3>", 'oik-privacy-policy' );
   $text['personal-info'] .= __( "<p>You may choose to restrict the collection or use of your personal information in the following ways:</p>", 'oik-privacy-policy' );
   $text['personal-info'] .= __( "<ul>", 'oik-privacy-policy' );
@@ -130,10 +125,10 @@ function oik_default_privacy_policy() {
   $text['personal-info-change'] = __( "<li>if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [bw_mailto]</li>", 'oik-privacy-policy' );
   $text['personal-info-eul'] = __( "</ul>", 'oik-privacy-policy' );
   
-  $text['third-parties'] = __( "<p>We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>", 'oik-privacy-policy' );
+  $text['third-parties'] = __( "<p>We will not sell, distribute, or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>", 'oik-privacy-policy' );
   $text['data-protection'] = __( "<p>You may request details of personal information which we hold about you under the Data Protection Act 1998.</p>", 'oik-privacy-policy' ); 
   $text['data-protection-fee'] = __( "<p>A small fee will be payable.</p>", 'oik-privacy-policy' ); 
-  $text['data-protection-addr'] = __( "<p>If you would like a copy of the information held on you please write to:</p>[bw_address]", 'oik-privacy-policy' );
+  $text['data-protection-addr'] = __( "<p>If you would like a copy of the information held on you, please write to:</p>[bw_address]", 'oik-privacy-policy' );
   $text['data-correction'] = __( "<p>If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible at the above address. We will promptly correct any information found to be incorrect.</p>", 'oik-privacy-policy' );
 
   return( $text );
