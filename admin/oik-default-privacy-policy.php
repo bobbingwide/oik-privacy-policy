@@ -87,7 +87,7 @@ function oik_default_privacy_policy() {
 	// In March 2017 - allaboutcookies.org did not support https. It does now.
   $text['cookies-all-about'] = __( "<li><a href=\"https://www.allaboutcookies.org\">www.allaboutcookies.org</a></li>", 'oik-privacy-policy' );
   $text['cookies-online-choices'] = __( "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.eu</a></li>", 'oik-privacy-policy' );
-  $text['cookies-google-video'] = __( "<li>For a video about cookies visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>", 'oik-privacy-policy' );
+  $text['cookies-google-video'] = __( "<li>For a video about cookies, visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>", 'oik-privacy-policy' );
   $text['cookies-info-eul'] = __( "</ul>", 'oik-privacy-policy' );
 
   $text['cookies-more-info'] = __( "Cookies do lots of different jobs, like letting you navigate between pages efficiently, remembering your preferences, and generally improve the user experience. ", 'oik-privacy-policy' );
@@ -108,7 +108,7 @@ function oik_default_privacy_policy() {
   $text['cookie-consent-3'] = __( "<p>By using our website, you agree that we can place these type of cookies on your device.</p>", 'oik-privacy-policy' );                                                                                                                  
                             
   $text['cookie-cat-4'] = __( "<h3>Category 4: targeting cookies or advertising cookies</h3>", 'oik-privacy-policy' );
-  $text['cookie-cat-4'] .= __( "<p>These cookies are used to deliver adverts more relevant to you and your interests They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>", 'oik-privacy-policy' ); 
+  $text['cookie-cat-4'] .= __( "<p>These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>", 'oik-privacy-policy' );
   
   $text['cookie-list'] = __( "<p>A list of all the cookies used on this website by category is set out below.</p>", 'oik-privacy-policy' );
   // **?** TODO - determine the best way to list cookies
