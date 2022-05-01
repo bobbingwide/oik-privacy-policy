@@ -1,16 +1,16 @@
-# Copyright (C) 2021 oik-privacy-policy
+# Copyright (C) 2022 oik-privacy-policy
 # This file is distributed under the same license as the oik-privacy-policy package.
 msgid ""
 msgstr ""
-"Project-Id-Version: oik-privacy-policy 1.4.4\n"
+"Project-Id-Version: oik-privacy-policy 1.4.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2021-03-15 18:35:41+00:00\n"
+"POT-Creation-Date: 2022-05-01 10:17:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 #: admin/oik-activation.php:29
@@ -186,9 +186,9 @@ msgstr "<li><a href=\"https://www.youronlinechoices.eu\">www.youronlinechoices.e
 
 #: admin/oik-default-privacy-policy.php:90
 msgid ""
-"<li>For a video about cookies visit <a href=\"https://www.google.com/"
+"<li>For a video about cookies, visit <a href=\"https://www.google.com/"
 "policies/technologies/cookies/\">how Google uses cookies</a></li>"
-msgstr "<li>For a video about cookies visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>"
+msgstr "<li>For a video about cookies, visit <a href=\"https://www.google.com/policies/technologies/cookies/\">how Google uses cookies</a></li>"
 
 #: admin/oik-default-privacy-policy.php:93
 msgid ""
@@ -266,14 +266,14 @@ msgstr "<h3>Category 4: targeting cookies or advertising cookies</h3>"
 #: admin/oik-default-privacy-policy.php:111
 msgid ""
 "<p>These cookies are used to deliver adverts more relevant to you and your "
-"interests They are also used to limit the number of times you see an "
+"interests. They are also used to limit the number of times you see an "
 "advertisement as well as help measure the effectiveness of the advertising "
 "campaign. They are usually placed by advertising networks with the website "
 "operator's permission. They remember that you have visited a website and "
 "this information is shared with other organisations such as advertisers. "
 "Quite often targeting or advertising cookies will be linked to site "
 "functionality provided by the other organizations.</p>"
-msgstr "<p>These cookies are used to deliver adverts more relevant to you and your interests They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>"
+msgstr "<p>These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organizations.</p>"
 
 #: admin/oik-default-privacy-policy.php:113
 msgid ""

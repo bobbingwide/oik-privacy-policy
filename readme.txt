@@ -112,7 +112,7 @@ No. There's no need.
 
 == Upgrade Notice ==
 = 1.4.5 =
-Tested with WordPress 5.9.3. Updated readme.
+Tested with WordPress 5.9.3. Retrofitted some UK English translations to US English.
 
 = 1.4.4 =
 Update for WordPress 5.7 and PHP 8.0 support
@@ -152,6 +152,7 @@ Depends upon oik version 1.13 or higher.
 
 == Changelog ==
 = 1.4.5 =
+* Fixed: Retrofitted some more UK English translations to US English source #7
 * Tested: With WordPress 5.9.3 and WordPress Multi Site
 * Tested: With PHPUnit 9
 * Tested: With PHP 8.0

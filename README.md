@@ -1,11 +1,11 @@
 # oik-privacy-policy 
-![banner](https://raw.githubusercontent.com/bobbingwide/oik-privacy-policy/master/assets/oik-privacy-policy-banner-772x250.jpg)
+![banner](assets/oik-privacy-policy-banner-772x250.jpg)
 * Contributors: bobbingwide, vsgloik
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 4.9.8
-* Tested up to: 5.7
-* Stable tag: 1.4.4
+* Tested up to: 5.9.3
+* Stable tag: 1.4.5
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: No
@@ -94,10 +94,9 @@ or
 
 # Where do I find the list of cookies my site uses? 
 You should do a cookie audit.
-Either use the [cookie-cat](https://www.wordpress.org/plugins/cookie-cat/) plugin or perform a cookie audit. For more information on cookies that WordPress websites may use visit the [cookie-cat website](http://www.cookie-cat.co.uk)
+Either use the [cookie-cat](https://www.wordpress.org/plugins/cookie-cat/) plugin or perform a cookie audit.
+For more information on cookies that WordPress websites may use visit the [cookie-cat website](https://www.cookie-cat.co.uk)
 
-* I also recommend looking at [Cookie Control by Civic UK](https://www.civicuk.com/cookie-law/index)
-* See [Cookie Audits and Privacy Policy](https://civicuk.com/cookie-law/deployment#audit)
 
 # Can this plugin generate other policies? 
 No. There's no need.
@@ -113,6 +112,9 @@ No. There's no need.
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
+# 1.4.5 
+Tested with WordPress 5.9.3. Retrofitted some UK English translations to US English.
+
 # 1.4.4 
 Update for WordPress 5.7 and PHP 8.0 support
 
@@ -150,6 +152,12 @@ Depends upon oik version 1.17 or higher.
 Depends upon oik version 1.13 or higher.
 
 ## Changelog 
+# 1.4.5 
+* Fixed: Retrofitted some more UK English translations to US English source #7
+* Tested: With WordPress 5.9.3 and WordPress Multi Site
+* Tested: With PHPUnit 9
+* Tested: With PHP 8.0
+
 # 1.4.4 
 * Tested: With WordPress 5.7 and WordPress Multi Site
 * Tested: With PHPUnit 9
