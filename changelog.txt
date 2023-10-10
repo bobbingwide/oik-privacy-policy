@@ -1,0 +1,110 @@
+== Upgrade Notice ==
+= 1.4.5 =
+Tested with WordPress 5.9.3. Retrofitted some UK English translations to US English.
+
+= 1.4.4 =
+Update for WordPress 5.7 and PHP 8.0 support
+
+= 1.4.3 = 
+Updated strings to match the UK English translation; mostly additional commas
+
+= 1.4.2 =
+Tested with PHPUnit 8 using WordPress 5.3.2 and WordPress Multi Site, PHP 7.3 and  PHP 7.4
+
+= 1.4.1 =
+We recommend you deactivate this plugin. Use WordPress core functionality from now on.
+
+= 1.4.0 =
+Translation ready. Tested with WordPress 4.9.1 and WordPress Multisite. Please upgrade oik to v3.2.2.
+
+= 1.3.3 = 
+Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1
+
+= 1.3.2 =
+Tested with WordPress 4.6.
+
+= 1.3.1 =
+Tested with WordPress 4.4. Now dependent upon oik v2.5 or higher.
+
+= 1.3 = 
+Tested with WordPress 4.0. Now dependent upon oik v2.2 or higher.
+
+= 1.2 = 
+Now dependent upon oik base plugin v2.1 or higher for a localized version
+
+= 1.1 = 
+Depends upon oik version 1.17 or higher.  
+
+= 1.0 = 
+Depends upon oik version 1.13 or higher.
+
+== Changelog ==
+= 1.4.5 =
+* Fixed: Retrofitted some more UK English translations to US English source #7
+* Tested: With WordPress 5.9.3 and WordPress Multi Site
+* Tested: With PHPUnit 9
+* Tested: With PHP 8.0
+
+= 1.4.4 = 
+* Tested: With WordPress 5.7 and WordPress Multi Site
+* Tested: With PHPUnit 9
+* Tested: With PHP 8.0 and 74
+
+= 1.4.3 = 
+* Changed: Updated strings to match the UK English translations.,[github bobbingwide oik-privacy-policy issues 7]
+* Changed: Altered some strings to cater for a new automatic procedure for localization,[github bobbingwide oik-privacy-policy issues 7]
+* Tested: With WordPress 5.6 and WordPress Multi Site
+* Tested: With PHPUnit 8
+* Tested: With PHP 7.4 
+
+= 1.4.2 =
+* Changed: Update to test with PHPUnit 8,[github bobbingwide oik-privacy-policy issues 6]
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+
+= 1.4.1 =
+* Added: Recommendation to use WordPress core privacy logic., [github bobbingwide oik-privacy-policy issues 5]
+* Added: Marked as Gutenberg compatible: No, [github bobbingwide oik-privacy-policy issues 5]
+* Changed: Now uses https for link to allaboutcookies.org
+* Changed: Now dependent upon oik v3.2.8, [github bobbingwide oik-privacy-policy issues 5]
+* Changed: Out of date FAQs
+* Tested: With Gutenberg 4.6.1
+* Tested: With WordPress 5.0
+
+= 1.4.0 = 
+* Changed: 100% translatable and localizable on WordPress.org [github bobbingwide oik-privacy-policy issues 2]
+* Changed: Dependent upon oik v3.2.2 [github bobbingwide oik-privacy-policy issues 2] 
+* Fixed: W3C validator produces warnings about unmatched p end tags [github bobbingwide oik-privacy-policy issues 3]
+* Tested: With PHP 7.0 and 7.1
+* Tested: With WordPress 4.9.1 and WordPress Multisite
+ 
+= 1.3.3 =
+* Tested: With WordPress 4.7.3 and WordPress Multisite
+* Tested: With PHP 7.1
+* Changed: Updated readme links
+* Changed: Used https: in links where these were known to work. Left others as http:
+
+= 1.3.2 =
+* Fixed: Update the link to Google's Good to Know video [github bobbingwide oik-privacy-policy issues 1]
+* Tested: With WordPress 4.6 and Multisite
+
+= 1.3.1 = 
+* Changed: Dependent upon oik v2.5
+* Changed: Priority of response to "admin_notices" changed from 10 to 12.
+* Tested: with WordPress 4.4 and WordPress Multi-Site
+
+= 1.3 =
+* Tested: With WordPress 3.9 through 4.0
+
+= 1.2 =
+* Changed: Internationalized and created a localized version for the "bb_BB" locale
+* Changed: Now depends on oik version 2.1 or higher for i18n and l10n capability to take effect
+* Tested: With WordPress 3.8
+
+= 1.1 = 
+* Changed: Updated readme.txt - Business Link website has been redeveloped - samples still available from NI Business Info 
+* Changed: Updated readme.txt - Use the cookie-cat plugin to create a table of cookies in your Privacy policy
+* Changed: Improved dependency checking using functions in a 'common' file  ( admin/oik-activation.php )
+* Changed: Now responds to "oik_admin_menu" action.
+
+= 1.0 =
+* initial version. Works with oik version 1.13 or higher 

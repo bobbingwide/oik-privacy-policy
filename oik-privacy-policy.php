@@ -4,7 +4,7 @@ Plugin Name: oik-privacy-policy
 Depends: oik base plugin
 Plugin URI: https://www.oik-plugins.com/oik-plugins/oik-privacy-policy
 Description: Generate a privacy policy page, compliant with UK cookie law (EU cookie directive) for use on your website
-Version: 1.4.5
+Version: 1.4.6
 Author: bobbingwide
 Author URI: https://bobbingwide.com/about-bobbing-wide
 Text Domain: oik-privacy-policy
