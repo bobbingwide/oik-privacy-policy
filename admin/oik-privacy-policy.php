@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2017
+<?php // (C) Copyright Bobbing Wide 2012-2017, 2023
 
 /**
  * Display privacy policy inactive message
@@ -171,7 +171,7 @@ function oik_privacy_policy_options() {
  * build the content for a text field if the checkbox is "on"  
  */
 function bw_build_content( $array, $index ) {
-  $cb = bw_array_get( $array, "${index}_cb", false );
+  $cb = bw_array_get( $array, "{$index}_cb", false );
   if ( $cb ) 
     $text = bw_array_get( $array, $index, null );
   else
