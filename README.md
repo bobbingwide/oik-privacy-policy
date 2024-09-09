@@ -4,11 +4,11 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 4.9.8
-* Tested up to: 6.3.1
-* Stable tag: 1.4.6
+* Tested up to: 6.6.1
+* Stable tag: 1.4.7
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Gutenberg compatible: No
+* Gutenberg compatible: Yes
 
 Generate a privacy policy page, compliant with UK cookie law (EU cookie directive) for use on your website
 
@@ -18,7 +18,7 @@ This plugin will help you create your policy page, and attach it to a menu of yo
 Choose the sections you require and tailor them for your company's information.
 The sample text uses shortcodes to reduce the amount of editing you need to do.
 
-The privacy policy page that is generated is not aware of the block editor.
+While the privacy policy page that is generated is not aware of the block editor, the content is compatible with it.
 Since WordPress v4.9.6, core has provided its own privacy notice generator.
 We recommend you switch to using the WordPress solution and deactivate this plugin.
 
@@ -108,22 +108,17 @@ No. There's no need.
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
-# 1.4.6 
-Tested with PHP 8.1 and PHP 8.2
+# 1.4.7 
+Tested with WordPress 6.6.1 and PHP 8.3
 
 ## Changelog 
-# 1.4.6 
-* Changed: Support PHP 8.1 and PHP 8.2 #8
-* Tested: With WordPress 6.3.1 and WordPress Multisite
-* Tested: With WordPress 6.4-beta2 and WordPress Multisite
+# 1.4.7 
+* Changed: Support WordPress 6.6.1 and PHP 8.3 #9
+* Tested: With WordPress 6.6.1 and WordPress Multisite
 * Tested: With PHPUnit 9.6
-* Tested: With PHP 8.0, PHP 8.1 and PHP 8.2
+* Tested: With PHP 8.3
 
 ## Further reading 
 If you want to read more about the oik plugins then please visit the
 [oik plugin](https://www.oik-plugins.com/oik)
 **"the oik plugin - for often included key-information"**
-
-
-
-

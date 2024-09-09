@@ -1,4 +1,7 @@
 == Upgrade Notice ==
+= 1.4.6 =
+Tested with PHP 8.1 and PHP 8.2
+
 = 1.4.5 =
 Tested with WordPress 5.9.3. Retrofitted some UK English translations to US English.
 
@@ -39,6 +42,13 @@ Depends upon oik version 1.17 or higher.
 Depends upon oik version 1.13 or higher.
 
 == Changelog ==
+= 1.4.6 =
+* Changed: Support PHP 8.1 and PHP 8.2 #8
+* Tested: With WordPress 6.3.1 and WordPress Multisite
+* Tested: With WordPress 6.4-beta2 and WordPress Multisite
+* Tested: With PHPUnit 9.6
+* Tested: With PHP 8.0, PHP 8.1 and PHP 8.2
+
 = 1.4.5 =
 * Fixed: Retrofitted some more UK English translations to US English source #7
 * Tested: With WordPress 5.9.3 and WordPress Multi Site
