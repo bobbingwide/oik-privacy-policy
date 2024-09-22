@@ -3,8 +3,8 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: privacy policy, UK cookie law, EU cookie directive, oik
 Requires at least: 4.9.8
-Tested up to: 6.6.1
-Stable tag: 1.4.7
+Tested up to: 6.6.2
+Stable tag: 1.4.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Gutenberg compatible: Yes
@@ -107,13 +107,13 @@ No. There's no need.
 1. Sample generated page: from What is a cookie? 
 
 == Upgrade Notice ==
-= 1.4.7 =
-Tested with WordPress 6.6.1 and PHP 8.3 
+= 1.4.8 =
+Removed dependency on bobbfunc's ep()
 
 == Changelog ==
-= 1.4.7 =
-* Changed: Support WordPress 6.6.1 and PHP 8.3 #9
-* Tested: With WordPress 6.6.1 and WordPress Multisite
+= 1.4.8 =
+* Changed: Removed dependency on bobbfunc's ep() #10
+* Tested: With WordPress 6.6.2 and WordPress Multisite
 * Tested: With PHPUnit 9.6
 * Tested: With PHP 8.3
 
