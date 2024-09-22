@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2017, 2023
+<?php // (C) Copyright Bobbing Wide 2012-2017, 2023, 2024
 
 /**
  * Display privacy policy inactive message
@@ -238,7 +238,7 @@ function oik_privacy_policy_generate_page() {
     e( __( "Page created:", "oik-privacy-policy" ) );
     e( "&nbsp;" . $title . "&nbsp;" );
     BW_::alink( null, get_permalink( $page_id ), __( "View page", "oik-privacy-policy" ) );
-    ep();
+    bw_echo( '</p>' );
     ediv();
   } else {
     sdiv( "error", "message" ); 
