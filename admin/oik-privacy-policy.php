@@ -79,8 +79,12 @@ function oik_privacy_policy_i18n() {
 function oik_privacy_policy_options_do_page() {
   oik_privacy_policy_i18n();
   $generate = bw_array_get( $_REQUEST, "_bw_privacy_policy_generate", null );
+  bw_verify_nonce( "_oik_privacy_policy_form", "_oik_privacy_policy_nonce" );
   if ( $generate ) {
-    oik_privacy_policy_generate_page();
+	$continue = bw_verify_nonce( "_oik_privacy_policy_form", "_oik_privacy_policy_nonce" );
+	if ( $continue ) {
+		oik_privacy_policy_generate_page();
+	}
   }
   BW_::oik_menu_header( __( "privacy policy setup", "oik-privacy-policy" ), "w60pc" );
   BW_::oik_box( NULL, NULL, __( "Privacy policy", "oik-privacy-policy" ), "oik_privacy_policy_options" );
@@ -256,7 +260,9 @@ function oik_privacy_policy_generate() {
   BW_::bw_textfield( "bw_privacy_policy_title", 30, __( "Page title", "oik-privacy-policy" ), __( "Privacy policy", 'oik-privacy-policy') );
   oik_privacy_policy_menu_selector();
   etag( "table" );
-  e( isubmit( "_bw_privacy_policy_generate", __( "Generate page", "oik-privacy-policy" ), null, "button-primary" ) ); 
+  e( wp_nonce_field( "_oik_privacy_policy_form", "_oik_privacy_policy_nonce", false, false ));
+
+	e( isubmit( "_bw_privacy_policy_generate", __( "Generate page", "oik-privacy-policy" ), null, "button-primary" ) );
   etag( "form" );
 }
 
