@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2017, 2023, 2024
+<?php // (C) Copyright Bobbing Wide 2012-2017, 2023, 2024, 2025
 
 /**
  * Display privacy policy inactive message

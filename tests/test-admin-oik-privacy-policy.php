@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2017-2020
+<?php // (C) Copyright Bobbing Wide 2017-2020, 2025
 
 
 /**
@@ -90,6 +90,7 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 		$this->assertNotNull( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array, "closedpostboxesnonce", "closedpostboxesnonce" );
+		$html_array = $this->replace_nonce_with_nonsense( $html_array, "_oik_privacy_policy_nonce", "_oik_privacy_policy_nonce" );
 		//$this->generate_expected_file( $html_array );
 		$this->assertArrayEqualsFile( $html_array );
 	}
@@ -117,6 +118,7 @@ class Tests_admin_oik_privacy_policy extends BW_UnitTestCase {
 		$this->assertNotNull( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array );
 		$html_array = $this->replace_nonce_with_nonsense( $html_array, "closedpostboxesnonce", "closedpostboxesnonce" );
+		$html_array = $this->replace_nonce_with_nonsense( $html_array, "_oik_privacy_policy_nonce", "_oik_privacy_policy_nonce" );
 		//$this->generate_expected_file( $html_array );
 		$this->assertArrayEqualsFile( $html_array );
 		$this->switch_to_locale( 'en_GB' );
