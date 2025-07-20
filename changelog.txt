@@ -1,4 +1,7 @@
 == Upgrade Notice ==
+= 1.4.8 =
+Removed dependency on bobbfunc's ep()
+
 = 1.4.7 =
 Tested with WordPress 6.6.1 and PHP 8.3 
 
@@ -45,6 +48,12 @@ Depends upon oik version 1.17 or higher.
 Depends upon oik version 1.13 or higher.
 
 == Changelog ==
+= 1.4.8 =
+* Changed: Removed dependency on bobbfunc's ep() #10
+* Tested: With WordPress 6.6.2 and WordPress Multisite
+* Tested: With PHPUnit 9.6
+* Tested: With PHP 8.3
+
 = 1.4.7 =
 * Changed: Support WordPress 6.6.1 and PHP 8.3 #9
 * Tested: With WordPress 6.6.1 and WordPress Multisite
