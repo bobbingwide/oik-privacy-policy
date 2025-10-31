@@ -42,7 +42,9 @@ function oik_privacy_policy_lazy_admin_menu() {
 }
 
 /**
- * Validate the privacy policy fields
+ * Validates the privacy policy fields.
+ *
+ * Original notes pre Oct 2025
  *
  * Note: Checkboxes don't need validating
  * and there's little point validating the text since we allow (X)HTML and shortcodes
@@ -51,7 +53,13 @@ function oik_privacy_policy_lazy_admin_menu() {
  *
  * Of course, we're assuming the user is reasonably web savvy
  * and not trying to hack the system.
- * 
+ *
+ * Notes post Oct 2025
+ * - We don't do any validation / sanitization here since it's too early.
+ * - Sanitization, using wp_kses_post(), is performed once the page content has been constructed.
+ * - During Preview, we produce a warning message if sanitization has changed the page content.
+ * - It's up to the user to find out what they've done wrong.
+ *
  * @param $input 
  * @return $input 
  */
@@ -208,7 +216,16 @@ function oik_build_privacy_policy() {
 function oik_privacy_policy_preview() {
   oik_build_privacy_policy();  
   $page = bw_ret();
-  e( apply_filters( 'the_content', $page ) );
+  $sanitized_page = wp_kses_post( $page );
+  if ( $page <> $sanitized_page ) {
+	  $warning = '<div class="notice notice-warning">';
+	  $warning .= __( "Your input has been sanitized. Please check for unacceptable content." , "oik-privacy-policy" );
+	  $warning .= '</div>';
+	  $sanitized_page .= $warning;
+	  bw_trace2( $sanitized_page, "sanitized_page", false, BW_TRACE_VERBOSE );
+
+  }
+  e( apply_filters( 'the_content', $sanitized_page ) );
   oik_privacy_policy_reset_form(); 
   bw_flush();
 }
@@ -222,13 +239,14 @@ function oik_privacy_policy_reset_form() {
 }
 
 /**
- * Generate the privacy policy page
+ * Generates the privacy policy page.
  */ 
 function oik_privacy_policy_generate_page() {
   bw_flush();
   oik_build_privacy_policy();
   $page = bw_ret();
   if ( $page ) {
+	$page = wp_kses_post( $page );
     $title = bw_array_get( $_REQUEST, "bw_privacy_policy_title", __( "Privacy policy", "oik-privacy-policy" ) ); 
     $page_id = _bw_create_page( $title, "page", $page );
     
