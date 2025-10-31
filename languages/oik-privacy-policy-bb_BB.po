@@ -1,39 +1,39 @@
-# Copyright (C) 2022 oik-privacy-policy
+# Copyright (C) 2025 oik-privacy-policy
 # This file is distributed under the same license as the oik-privacy-policy package.
 msgid ""
 msgstr ""
-"Project-Id-Version: oik-privacy-policy 1.4.5\n"
+"Project-Id-Version: oik-privacy-policy 1.4.9\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-privacy-policy\n"
-"POT-Creation-Date: 2022-05-01 10:17:41+00:00\n"
+"POT-Creation-Date: 2025-10-31 14:12:27+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: bb_BB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-#: admin/oik-activation.php:29
+#: admin/oik-activation.php:30
 msgid "Install %1$s"
 msgstr "Isnatll %1$s"
 
-#: admin/oik-activation.php:61
+#: admin/oik-activation.php:63
 msgid "Activate %1$s"
 msgstr "Atcvitae %1$s"
 
-#: admin/oik-activation.php:79
+#: admin/oik-activation.php:82
 msgid "Upgrade %1$s"
 msgstr "Ugparde %1$s"
 
-#: admin/oik-activation.php:195
+#: admin/oik-activation.php:198
 msgid "version"
 msgstr "vreison"
 
-#: admin/oik-activation.php:197
+#: admin/oik-activation.php:201
 msgid "%1$s may not be fully functional."
 msgstr "%1$s mAy nOt bE fluly fnutcoianl."
 
-#: admin/oik-activation.php:199
+#: admin/oik-activation.php:204
 msgid ""
 "Please install and activate the required minimum version of this plugin: %1$s"
 msgstr "Pelsae isnatll And atcvitae thE rqeiuerd mnimium vreison Of tihs pulign: %1$s"
@@ -352,7 +352,7 @@ msgid ""
 "address. We will promptly correct any information found to be incorrect.</p>"
 msgstr "<p>If yOU bleeive taht Any ifnroamiton wE ArE hloidng On yOU Is icnroerct Or icnmolptee, pelsae wirte tO Or eamil Us As soon As psoislbe At thE aobve adderss. WE wlil porpmlty croerct Any ifnroamiton fuond tO bE incorrect.</p>"
 
-#: admin/oik-privacy-policy.php:41 admin/oik-privacy-policy.php:85
+#: admin/oik-privacy-policy.php:41 admin/oik-privacy-policy.php:97
 msgid "privacy policy setup"
 msgstr "piravcy plociy steup"
 
@@ -360,212 +360,216 @@ msgstr "piravcy plociy steup"
 msgid "privacy policy"
 msgstr "piravcy plociy"
 
-#: admin/oik-privacy-policy.php:86 admin/oik-privacy-policy.php:228
-#: admin/oik-privacy-policy.php:256
+#: admin/oik-privacy-policy.php:98 admin/oik-privacy-policy.php:250
+#: admin/oik-privacy-policy.php:278
 msgid "Privacy policy"
 msgstr "Piravcy plociy"
 
-#: admin/oik-privacy-policy.php:89 admin/oik-privacy-policy.php:164
+#: admin/oik-privacy-policy.php:101 admin/oik-privacy-policy.php:176
 msgid "Preview"
 msgstr "Perivew"
 
-#: admin/oik-privacy-policy.php:90
+#: admin/oik-privacy-policy.php:102
 msgid "Generate"
 msgstr "Gneretae"
 
-#: admin/oik-privacy-policy.php:99
+#: admin/oik-privacy-policy.php:111
 msgid ""
 "Choose the content for your privacy policy, change the text as required."
 msgstr "Cohsoe thE cnoetnt fOr yuor piravcy plociy, cahgne thE txet As rqeiuerd."
 
-#: admin/oik-privacy-policy.php:100
+#: admin/oik-privacy-policy.php:112
 msgid "Click on <b>Preview</b> to see how the privacy policy will appear."
 msgstr "Cilck On <b>Preview</b> tO sEE hOw thE piravcy plociy wlil appaer."
 
-#: admin/oik-privacy-policy.php:110
+#: admin/oik-privacy-policy.php:122
 msgid "Introduction"
 msgstr "Itnorudtcoin"
 
-#: admin/oik-privacy-policy.php:111
+#: admin/oik-privacy-policy.php:123
 msgid "Effective from"
 msgstr "Effceitve form"
 
-#: admin/oik-privacy-policy.php:113
+#: admin/oik-privacy-policy.php:125
 msgid "We collect"
 msgstr "WE cloelct"
 
-#: admin/oik-privacy-policy.php:114
+#: admin/oik-privacy-policy.php:126
 msgid ".. Name"
 msgstr ".. Nmae"
 
-#: admin/oik-privacy-policy.php:115
+#: admin/oik-privacy-policy.php:127
 msgid ".. Contact"
 msgstr ".. Cnoatct"
 
-#: admin/oik-privacy-policy.php:116
+#: admin/oik-privacy-policy.php:128
 msgid ".. Demographic"
 msgstr ".. Dmegoarhpic"
 
-#: admin/oik-privacy-policy.php:117
+#: admin/oik-privacy-policy.php:129
 msgid ".. Other"
 msgstr ".. Ohter"
 
-#: admin/oik-privacy-policy.php:118 admin/oik-privacy-policy.php:125
-#: admin/oik-privacy-policy.php:134 admin/oik-privacy-policy.php:156
+#: admin/oik-privacy-policy.php:130 admin/oik-privacy-policy.php:137
+#: admin/oik-privacy-policy.php:146 admin/oik-privacy-policy.php:168
 msgid "list end"
 msgstr "lsit End"
 
-#: admin/oik-privacy-policy.php:120
+#: admin/oik-privacy-policy.php:132
 msgid "We use it for"
 msgstr "WE UsE It fOr"
 
-#: admin/oik-privacy-policy.php:121
+#: admin/oik-privacy-policy.php:133
 msgid ".. Internally"
 msgstr ".. Itnreanlly"
 
-#: admin/oik-privacy-policy.php:122
+#: admin/oik-privacy-policy.php:134
 msgid ".. Improve"
 msgstr ".. Ipmorve"
 
-#: admin/oik-privacy-policy.php:123
+#: admin/oik-privacy-policy.php:135
 msgid ".. Emails"
 msgstr ".. Eamlis"
 
-#: admin/oik-privacy-policy.php:124
+#: admin/oik-privacy-policy.php:136
 msgid ".. Research"
 msgstr ".. Rseaecrh"
 
-#: admin/oik-privacy-policy.php:127
+#: admin/oik-privacy-policy.php:139
 msgid "Security"
 msgstr "Scerutiy"
 
-#: admin/oik-privacy-policy.php:129
+#: admin/oik-privacy-policy.php:141
 msgid "<b>Cookies</b>"
 msgstr "<b>Cookies</b>"
 
-#: admin/oik-privacy-policy.php:130
+#: admin/oik-privacy-policy.php:142
 msgid "Cookie info"
 msgstr "Cooike ifno"
 
-#: admin/oik-privacy-policy.php:131
+#: admin/oik-privacy-policy.php:143
 msgid ".. All about cookies"
 msgstr ".. All aobut cooikes"
 
-#: admin/oik-privacy-policy.php:132
+#: admin/oik-privacy-policy.php:144
 msgid ".. Online choices"
 msgstr ".. Olnnie cohcies"
 
-#: admin/oik-privacy-policy.php:133
+#: admin/oik-privacy-policy.php:145
 msgid ".. Google video"
 msgstr ".. Goolge vdieo"
 
-#: admin/oik-privacy-policy.php:135
+#: admin/oik-privacy-policy.php:147
 msgid "More info"
 msgstr "Mroe ifno"
 
-#: admin/oik-privacy-policy.php:136
+#: admin/oik-privacy-policy.php:148
 msgid "Relevant adverts"
 msgstr "Rlevenat avdrets"
 
-#: admin/oik-privacy-policy.php:137
+#: admin/oik-privacy-policy.php:149
 msgid "Categorised"
 msgstr "Ctagerosied"
 
-#: admin/oik-privacy-policy.php:138
+#: admin/oik-privacy-policy.php:150
 msgid "Category 1"
 msgstr "Ctageroy 1"
 
-#: admin/oik-privacy-policy.php:140
+#: admin/oik-privacy-policy.php:152
 msgid "Category 2"
 msgstr "Ctageroy 2"
 
-#: admin/oik-privacy-policy.php:141 admin/oik-privacy-policy.php:143
+#: admin/oik-privacy-policy.php:153 admin/oik-privacy-policy.php:155
 msgid "Consent"
 msgstr "Cnoesnt"
 
-#: admin/oik-privacy-policy.php:142
+#: admin/oik-privacy-policy.php:154
 msgid "Category 3"
 msgstr "Ctageroy 3"
 
-#: admin/oik-privacy-policy.php:144
+#: admin/oik-privacy-policy.php:156
 msgid "Category 4"
 msgstr "Ctageroy 4"
 
-#: admin/oik-privacy-policy.php:146
+#: admin/oik-privacy-policy.php:158
 msgid "Cookie list"
 msgstr "Cooike lsit"
 
-#: admin/oik-privacy-policy.php:152
+#: admin/oik-privacy-policy.php:164
 msgid "External links"
 msgstr "Etxreanl lniks"
 
-#: admin/oik-privacy-policy.php:153
+#: admin/oik-privacy-policy.php:165
 msgid "Personal information"
 msgstr "Preosanl ifnroamiton"
 
-#: admin/oik-privacy-policy.php:154
+#: admin/oik-privacy-policy.php:166
 msgid ".. Direct marketing"
 msgstr ".. Dricet mraekitng"
 
-#: admin/oik-privacy-policy.php:155
+#: admin/oik-privacy-policy.php:167
 msgid ".. Changes"
 msgstr ".. Cahgnes"
 
-#: admin/oik-privacy-policy.php:158
+#: admin/oik-privacy-policy.php:170
 msgid "Third parties"
 msgstr "Tihrd praites"
 
-#: admin/oik-privacy-policy.php:159
+#: admin/oik-privacy-policy.php:171
 msgid "Data Protection Act 1998"
 msgstr "Dtaa Porettcoin Act 1998"
 
-#: admin/oik-privacy-policy.php:160
+#: admin/oik-privacy-policy.php:172
 msgid "Small fee"
 msgstr "Samll fEE"
 
-#: admin/oik-privacy-policy.php:161
+#: admin/oik-privacy-policy.php:173
 msgid "Write to"
 msgstr "Wirte tO"
 
-#: admin/oik-privacy-policy.php:162
+#: admin/oik-privacy-policy.php:174
 msgid "Correction"
 msgstr "Croertcoin"
 
-#: admin/oik-privacy-policy.php:216
+#: admin/oik-privacy-policy.php:222
+msgid "Your input has been sanitized. Please check for unacceptable content."
+msgstr "Yuor ipnut hAs been snatizied. Pelsae cehck fOr uanccpeatlbe cnoetnt."
+
+#: admin/oik-privacy-policy.php:237
 msgid "Reset to defaults"
 msgstr "Rseet tO dfeuatls"
 
-#: admin/oik-privacy-policy.php:238
+#: admin/oik-privacy-policy.php:260
 msgid "Page created:"
 msgstr "Pgae certaed:"
 
-#: admin/oik-privacy-policy.php:240
+#: admin/oik-privacy-policy.php:262
 msgid "View page"
 msgstr "Veiw pgae"
 
-#: admin/oik-privacy-policy.php:245
+#: admin/oik-privacy-policy.php:267
 msgid ""
 "Please select some checkboxes and <b>Preview</b> the result before choosing "
 "<b>Generate page</b>"
 msgstr "Pelsae slecet smoe cehkcobexs And <b>Preview</b> thE rselut bferoe cohsonig <b>Generate page</b>"
 
-#: admin/oik-privacy-policy.php:256
+#: admin/oik-privacy-policy.php:278
 msgid "Page title"
 msgstr "Pgae ttile"
 
-#: admin/oik-privacy-policy.php:259
+#: admin/oik-privacy-policy.php:283
 msgid "Generate page"
 msgstr "Gneretae pgae"
 
-#: admin/oik-privacy-policy.php:288
+#: admin/oik-privacy-policy.php:312
 msgid "none"
 msgstr "nnoe"
 
-#: admin/oik-privacy-policy.php:295
+#: admin/oik-privacy-policy.php:319
 msgid "The new page will be added to menu: %1$s"
 msgstr "ThE nEw pgae wlil bE added tO mneu: %1$s"
 
-#: admin/oik-privacy-policy.php:297
+#: admin/oik-privacy-policy.php:321
 msgid "Add to menu"
 msgstr "Add tO mneu"
 
