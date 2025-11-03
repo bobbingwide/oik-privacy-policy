@@ -5,7 +5,7 @@
 * Tags: privacy policy, UK cookie law, EU cookie directive, oik
 * Requires at least: 4.9.8
 * Tested up to: 6.8.3
-* Stable tag: 1.4.10
+* Stable tag: 1.4.11
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: Yes
@@ -108,12 +108,12 @@ No. There's no need.
 * 1. Sample generated page: from What is a cookie?
 
 ## Upgrade Notice 
-# 1.4.10 
-Tested with WordPress 6.8.3 and PHP 8.4. Contains a minor security fix.
+# 1.4.11 
+Tested with WordPress 6.8.3 and PHP 8.4. Contains another minor security fix.
 
 ## Changelog 
-# 1.4.10 
-* Fixed: Security fix: Add sanitization of the privacy policy page content on Preview and Generate actions. Props: Nabil Irawan
+# 1.4.11 
+* Fixed: Security fix: Add sanitization of the privacy policy page title on Generate action. Props: Nabil Irawan
 * Tested: With WordPress 6.8.3 and WordPress Multisite
 * Tested: With PHPUnit 9, 10 & 11
 * Tested: With PHP 8.3 and PHP 8.4
