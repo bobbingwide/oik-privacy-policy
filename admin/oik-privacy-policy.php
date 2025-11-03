@@ -247,7 +247,8 @@ function oik_privacy_policy_generate_page() {
   $page = bw_ret();
   if ( $page ) {
 	$page = wp_kses_post( $page );
-    $title = bw_array_get( $_REQUEST, "bw_privacy_policy_title", __( "Privacy policy", "oik-privacy-policy" ) ); 
+    $title = bw_array_get( $_REQUEST, "bw_privacy_policy_title", __( "Privacy policy", "oik-privacy-policy" ) );
+	$title = sanitize_text_field( $title );
     $page_id = _bw_create_page( $title, "page", $page );
     
     $menu = bw_array_get( $_REQUEST, "bw_nav_menu", null );    
